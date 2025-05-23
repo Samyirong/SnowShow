@@ -25,7 +25,7 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
     // 建立地圖並設定初始位置為日本東京 (緯度 35.6895, 經度 139.6917)
-    var map = L.map('map').setView([35.6895, 139.6917], 5);
+    var map = L.map('map').setView([35.6895, 139.617], 5);
 
     // 加入 OpenStreetMap 圖層
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -33,10 +33,7 @@
       maxZoom: 18
     }).addTo(map);
 
-    // 加入一個標記 (可選)
-    L.marker([43.06783751567037, 140.98962758353505]).addTo(map)
-      .bindPopup('<a href="video.html" target="_blank">2025 KIRORO 🏔️')
-      .openPopup();
+    
     // 加入一個標記 (可選)
     L.marker([43.14368724555889, 141.03683244099489]).addTo(map)
       .bindPopup('2025 朝里川 🏔️')
@@ -171,6 +168,10 @@
     // 加入一個標記 (可選)
     L.marker([39.537231673638836, -106.06549460391365]).addTo(map)
       .bindPopup('2008 布雷肯里奇 🏔️')
+      .openPopup();
+      // 加入一個標記 (可選)
+    L.marker([43.06783751567037, 140.98962758353505]).addTo(map)
+      .bindPopup('<a href="video.html" target="_blank">2025 KIRORO 🏔️')
       .openPopup();
   </script>
 </body>
