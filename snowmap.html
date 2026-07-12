@@ -176,6 +176,16 @@
     L.marker([50.116272, -122.957125]).addTo(map)
       .bindPopup('2026 加拿大惠斯勒 Whistler Blackcomb 🏔️')
       .openPopup();
+
+    // 顯示所有雪場標記，避免最後開啟的彈窗把地圖移到單一地點。
+    map.closePopup();
+    var markerBounds = L.latLngBounds();
+    map.eachLayer(function (layer) {
+      if (layer instanceof L.Marker) {
+        markerBounds.extend(layer.getLatLng());
+      }
+    });
+    map.fitBounds(markerBounds, { padding: [24, 24] });
   </script>
 </body>
 
