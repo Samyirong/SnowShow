@@ -152,6 +152,15 @@
       .bindPopup('<a href="video.html" target="_blank">2025 KIRORO 🏔️</a>');
     L.marker([50.116272, -122.957125]).addTo(map)
       .bindPopup('2026 加拿大惠斯勒 Whistler Blackcomb 🏔️');
+
+    // 將視角縮放至所有雪場標記；不自動開啟單一地點的彈窗。
+    const markerBounds = L.latLngBounds();
+    map.eachLayer((layer) => {
+      if (layer instanceof L.Marker) {
+        markerBounds.extend(layer.getLatLng());
+      }
+    });
+    map.fitBounds(markerBounds, { padding: [24, 24] });
   </script>
 </body>
 
