@@ -886,6 +886,31 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+.resort-films-collection {
+  margin-top: 48px;
+}
+.archive-films-heading {
+  margin-top: 56px;
+}
+.resort-film-card .film-player video {
+  aspect-ratio: 16 / 9;
+}
+.film-meta .film-resort-title {
+  font-size: 24px;
+  margin: 8px 0;
+}
+.film-meta .film-description {
+  font-size: 12px;
+  color: var(--muted);
+}
+.film-album-link {
+  display: inline-block;
+  margin-top: 14px;
+}
+#resort-film-players {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 900px;
+}
 .film-player {
   background: #102a26;
 }

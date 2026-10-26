@@ -32,6 +32,18 @@ window.SNOW_RESORTS = [
         alt: "朝里川雪道旁的深厚積雪（影片擷取）",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/asarigawa-10s.mp4",
+        poster: "images/resorts/asarigawa/film-poster.webp",
+        title: "降雪中的森林與雪坡",
+        kind: "video",
+        duration: 9.96,
+        year: 2025,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 2,
@@ -69,6 +81,18 @@ window.SNOW_RESORTS = [
         position: "50% 65%",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/sapporo-kokusai-10s.mp4",
+        poster: "images/resorts/sapporo-kokusai/film-poster.webp",
+        title: "鳥居、雪原與雪場入口",
+        kind: "slideshow",
+        duration: 9.83,
+        year: 2025,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 3,
@@ -102,6 +126,18 @@ window.SNOW_RESORTS = [
         src: "images/resorts/hoshino-tomamu/extra-night-walkway.webp",
         alt: "星野 TOMAMU 冬夜的木造步道",
         position: "50% 58%",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/hoshino-tomamu-10s.mp4",
+        poster: "images/resorts/hoshino-tomamu/film-poster.webp",
+        title: "雙塔與冬日山景",
+        kind: "slideshow",
+        duration: 9.83,
+        year: 2025,
+        width: 1280,
+        height: 720,
       },
     ],
   },
@@ -178,6 +214,18 @@ window.SNOW_RESORTS = [
         position: "50% 65%",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/furano-10s.mp4",
+        poster: "images/resorts/furano/film-poster.webp",
+        title: "雲海與晴天山景",
+        kind: "video",
+        duration: 10.04,
+        year: 2025,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 5,
@@ -212,6 +260,18 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/mt-buller/extra-foggy-tree-run.webp",
         alt: "布勒山薄霧中的雪坡與林帶（影片擷取）",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/mt-buller-10s.mp4",
+        poster: "images/resorts/mt-buller/film-poster.webp",
+        title: "從纜車看雪場村落",
+        kind: "video",
+        duration: 9.96,
+        year: 2023,
+        width: 720,
+        height: 1280,
       },
     ],
   },
@@ -249,6 +309,18 @@ window.SNOW_RESORTS = [
         alt: "舞子山麓的冬日雪場景象",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/maiko-10s.mp4",
+        poster: "images/resorts/maiko/film-poster.webp",
+        title: "沿著雪道望向群山",
+        kind: "video",
+        duration: 9.96,
+        year: 2024,
+        width: 720,
+        height: 1280,
+      },
+    ],
   },
   {
     id: 7,
@@ -282,6 +354,18 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/iwappara/extra-slope-side-lodge.webp",
         alt: "岩原雪道旁的山屋與晴空（影片擷取）",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/iwappara-10s.mp4",
+        poster: "images/resorts/iwappara/film-poster.webp",
+        title: "晴空下的開闊雪道",
+        kind: "video",
+        duration: 9.96,
+        year: 2023,
+        width: 720,
+        height: 1280,
       },
     ],
   },
@@ -319,6 +403,18 @@ window.SNOW_RESORTS = [
         alt: "石打丸山眺望層層起伏的雪峰",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/ishiuchi-maruyama-10s.mp4",
+        poster: "images/resorts/ishiuchi-maruyama/film-poster.webp",
+        title: "雪林之間的一段滑行",
+        kind: "video",
+        duration: 9.96,
+        year: 2023,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 9,
@@ -353,6 +449,18 @@ window.SNOW_RESORTS = [
         src: "images/resorts/joetsu-kokusai/extra-chairlift-blue-slope.webp",
         alt: "上越國際纜車線旁的白色山坡",
         position: "50% 60%",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/joetsu-kokusai-10s.mp4",
+        poster: "images/resorts/joetsu-kokusai/film-poster.webp",
+        title: "陽光與雪林間的滑行",
+        kind: "video",
+        duration: 9.96,
+        year: 2023,
+        width: 720,
+        height: 1280,
       },
     ],
   },
@@ -393,6 +501,18 @@ window.SNOW_RESORTS = [
         alt: "苗場山麓的纜車與雪原（影片擷取）",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/naeba-10s.mp4",
+        poster: "images/resorts/naeba/film-poster.webp",
+        title: "山麓飯店與林間雪道",
+        kind: "video",
+        duration: 9.92,
+        year: 2024,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 11,
@@ -426,6 +546,18 @@ window.SNOW_RESORTS = [
         src: "images/resorts/kagura/extra-snowfield-lift-lines.webp",
         alt: "神樂纜車線下的雪原與山屋",
         position: "50% 40%",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/kagura-10s.mp4",
+        poster: "images/resorts/kagura/film-poster.webp",
+        title: "雪原裡的木屋風景",
+        kind: "slideshow",
+        duration: 9.83,
+        year: 2023,
+        width: 1280,
+        height: 720,
       },
     ],
   },
@@ -652,6 +784,18 @@ window.SNOW_RESORTS = [
         alt: "藍天下的樹冰與起伏的粉雪",
       },
     ],
+    videos: [
+      {
+        src: "video/resorts/kiroro-10s.mp4",
+        poster: "images/resorts/kiroro/film-poster.webp",
+        title: "雪林旁的冬日滑行",
+        kind: "video",
+        duration: 9.96,
+        year: 2025,
+        width: 720,
+        height: 1280,
+      },
+    ],
   },
   {
     id: 36,
@@ -717,6 +861,18 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/whistler/misty-forest-trail.webp",
         alt: "薄霧環繞的雪道與覆雪針葉林",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/whistler-10s.mp4",
+        poster: "images/resorts/whistler/film-poster.webp",
+        title: "藍天下的高山纜車",
+        kind: "video",
+        duration: 10,
+        year: 2026,
+        width: 1280,
+        height: 720,
       },
     ],
   },

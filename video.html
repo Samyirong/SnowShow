@@ -11,6 +11,7 @@
     <title>雪上影像 — SnowShow</title>
     <link rel="stylesheet" href="assets/css/site.css" />
     <script src="assets/js/site.js" defer></script>
+    <script src="assets/js/resorts.js" defer></script>
     <script src="video.js" defer></script>
   </head>
   <body>
@@ -44,7 +45,26 @@
           照片留住瞬間，影像留下速度。<br />重播那些在雪道上，忘記時間的時刻。
         </p>
       </div>
-      <div class="video-grid">
+      <section
+        class="resort-films-collection"
+        aria-labelledby="resort-films-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">TEN SECONDS / EACH MOUNTAIN</p>
+            <h2 id="resort-films-title">一座雪場，十秒回憶。</h2>
+          </div>
+          <p class="small-note">無聲短片 · 點選播放 · 不自動下載完整影片</p>
+        </div>
+        <div class="video-grid" id="resort-films"></div>
+      </section>
+      <div class="section-heading archive-films-heading">
+        <div>
+          <p class="eyebrow">MORE SNOW MEMORIES</p>
+          <h2>更多滑行紀錄。</h2>
+        </div>
+      </div>
+      <div class="video-grid" id="archive-films">
         <article class="film-card">
           <div class="film-player">
             <video
