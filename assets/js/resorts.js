@@ -568,6 +568,24 @@ window.SNOW_RESORTS = [
     years: [2011, 2020],
     lat: 36.75271380432024,
     lng: 138.51704205261552,
+    photos: [
+      {
+        src: "images/resorts/shiga-yakebitai/2020-01.webp",
+        alt: "燒額山王子飯店前的雪原與覆雪林帶",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/shiga-yakebitai-10s.mp4",
+        poster: "images/resorts/shiga-yakebitai/2020-01.webp",
+        title: "王子飯店前的雪原",
+        kind: "slideshow",
+        duration: 10,
+        year: 2020,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 13,
@@ -576,6 +594,24 @@ window.SNOW_RESORTS = [
     years: [2011, 2020],
     lat: 36.76610217731015,
     lng: 138.51536447294234,
+    photos: [
+      {
+        src: "images/resorts/okushiga/2020-02.webp",
+        alt: "奧志賀山頂覆滿新雪的針葉林",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/okushiga-10s.mp4",
+        poster: "images/resorts/okushiga/2020-02.webp",
+        title: "奧志賀山頂的覆雪森林",
+        kind: "slideshow",
+        duration: 10,
+        year: 2020,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 14,
@@ -584,6 +620,44 @@ window.SNOW_RESORTS = [
     years: [2020],
     lat: 36.9207889778177,
     lng: 138.45235538330436,
+    photos: [
+      {
+        src: "images/resorts/nozawa-onsen/2020-03.webp",
+        alt: "野澤溫泉晨光下的雪道與山稜",
+      },
+      {
+        src: "images/resorts/nozawa-onsen/2020-04.webp",
+        alt: "野澤山頂纜車站旁的晴空與群峰",
+      },
+      {
+        src: "images/resorts/nozawa-onsen/2020-05.webp",
+        alt: "野澤雪坡上眺望連綿雪山",
+      },
+      {
+        src: "images/resorts/nozawa-onsen/2020-06.webp",
+        alt: "野澤藍天下的寬闊雪道",
+      },
+      {
+        src: "images/resorts/nozawa-onsen/2020-07.webp",
+        alt: "野澤溫泉山頂的全景雪山",
+      },
+      {
+        src: "images/resorts/nozawa-onsen/2020-08.webp",
+        alt: "野澤林緣雪道與遠方山景",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/nozawa-onsen-10s.mp4",
+        poster: "images/resorts/nozawa-onsen/2020-03.webp",
+        title: "晴空下的山頂滑行",
+        kind: "video",
+        duration: 10,
+        year: 2020,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 15,
@@ -592,6 +666,28 @@ window.SNOW_RESORTS = [
     years: [2020],
     lat: 36.75449850865415,
     lng: 138.0946309967926,
+    photos: [
+      {
+        src: "images/resorts/togakushi/2020-09.webp",
+        alt: "戶隱纜車上望向覆雪樹林與遠山",
+      },
+      {
+        src: "images/resorts/togakushi/2020-10.webp",
+        alt: "戶隱雪道與雪林間的滑雪設施（影片擷取）",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/togakushi-10s.mp4",
+        poster: "images/resorts/togakushi/2020-09.webp",
+        title: "戶隱雪道旁的冬日滑行",
+        kind: "video",
+        duration: 10,
+        year: 2020,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 16,
@@ -600,6 +696,24 @@ window.SNOW_RESORTS = [
     years: [2020],
     lat: 36.52520675564073,
     lng: 138.31349218339406,
+    photos: [
+      {
+        src: "images/resorts/sugadaira-kogen/2020-11.webp",
+        alt: "菅平高原晴天下的起伏雪山",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/sugadaira-kogen-10s.mp4",
+        poster: "images/resorts/sugadaira-kogen/2020-11.webp",
+        title: "遠望菅平高原的連綿雪山",
+        kind: "slideshow",
+        duration: 10,
+        year: 2020,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 17,
