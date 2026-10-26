@@ -58,6 +58,22 @@
       const years = document.createElement("p");
       years.textContent = resort.years.join(" · ");
       popup.append(label, title, years);
+      if (resort.photos?.length) {
+        const photoLink = document.createElement("a");
+        photoLink.href = "resort.html?id=" + resort.id;
+        const photo = document.createElement("img");
+        photo.src = resort.photos[0].src;
+        photo.alt = resort.photos[0].alt;
+        photo.className = "popup-scenery";
+        photoLink.append(photo);
+        popup.append(photoLink);
+      }
+      const galleryLink = document.createElement("a");
+      galleryLink.href = "resort.html?id=" + resort.id;
+      galleryLink.textContent = resort.photos?.length
+        ? "查看雪場風景 ↗"
+        : "雪場相簿 · 風景照整理中 ↗";
+      popup.append(galleryLink);
       if (resort.video) {
         const link = document.createElement("a");
         link.href = resort.video;

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SnowShow 雪場風景集，依雪場收藏群峰、森林、雪道與雲海。"
+    />
+    <meta name="theme-color" content="#173e39" />
+    <title>雪場風景 — SnowShow</title>
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script src="assets/js/resorts.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+    <script src="assets/js/resort-gallery.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="SnowShow 首頁"
+        ><span class="brand-mark" aria-hidden="true">↟</span> SNOWSHOW<span
+          class="brand-dot"
+          >.</span
+        ></a
+      >
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="index.html">首頁</a><a href="snowmap.html">雪場地圖</a
+        ><a href="resort.html" aria-current="page">雪場風景</a
+        ><a href="video.html">雪上影像</a><a href="index.html#about">關於我</a>
+      </nav>
+      <a
+        class="header-social"
+        href="https://www.instagram.com/yirong310/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Instagram ↗</a
+      >
+    </header>
+    <main id="main" class="scenery-main">
+      <div class="page-intro">
+        <p class="eyebrow" id="scenery-eyebrow">SCENES FROM THE MOUNTAINS</p>
+        <h1 id="scenery-title">每一座山，<br />都有自己的風景。</h1>
+        <p id="scenery-description">
+          群峰、森林、雪道與雲海。<br />依雪場收藏，慢慢看見每一段冬天。
+        </p>
+      </div>
+      <section id="catalog" aria-label="雪場風景相簿">
+        <div class="scenery-toolbar">
+          <label for="scenery-search" class="sr-only">搜尋雪場</label
+          ><input
+            id="scenery-search"
+            type="search"
+            placeholder="搜尋雪場、國家或年份…"
+          /><label for="scenery-country" class="sr-only">選擇國家</label
+          ><select id="scenery-country">
+            <option value="全部">全部國家</option>
+            <option>日本</option>
+            <option>加拿大</option>
+            <option>美國</option>
+            <option>澳洲</option></select
+          ><span id="scenery-count" role="status"></span>
+        </div>
+        <div class="resort-catalog" id="resort-catalog"></div>
+        <p class="scenery-empty" id="catalog-empty" hidden>
+          沒有符合的雪場，試試其他名稱或國家。
+        </p>
+      </section>
+      <section id="resort-detail" aria-label="雪場風景照片" hidden>
+        <div class="detail-links">
+          <a href="resort.html">← 所有雪場</a
+          ><a id="detail-map-link" href="snowmap.html">在地圖上查看 ↗</a>
+        </div>
+        <div class="scenery-detail-grid" id="scenery-photos"></div>
+        <div class="scenery-pending" id="scenery-pending" hidden>
+          <span aria-hidden="true">↟</span>
+          <h2>這座山的風景，正在整理。</h2>
+          <p>雪場紀錄已保留，風景相簿將陸續補上。</p>
+          <a href="resort.html" class="button button-dark">瀏覽其他雪場 ↗</a>
+        </div>
+      </section>
+      <noscript><p>請啟用 JavaScript 瀏覽依雪場分類的風景相簿。</p></noscript>
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="index.html">SNOWSHOW.</a
+      ><span
+        >© <span data-year>2026</span> Sam Chen · Made for the mountains.</span
+      ><a href="snowmap.html">探索雪場地圖 ↗</a>
+    </footer>
+    <dialog class="lightbox" aria-label="照片檢視器">
+      <button class="lightbox-close" type="button" aria-label="關閉照片">
+        ✕</button
+      ><img alt="" />
+      <p class="lightbox-caption"></p>
+    </dialog>
+  </body>
+</html>

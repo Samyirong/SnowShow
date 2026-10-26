@@ -13,16 +13,16 @@ if (window.SNOW_RESORTS) {
 }
 const lightbox = document.querySelector(".lightbox");
 if (lightbox && typeof lightbox.showModal === "function") {
-  document.querySelectorAll("[data-gallery]").forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      const sourceImage = link.querySelector("img");
-      const image = lightbox.querySelector("img");
-      image.src = link.href;
-      image.alt = sourceImage.alt;
-      lightbox.querySelector(".lightbox-caption").textContent = sourceImage.alt;
-      lightbox.showModal();
-    });
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest("a[data-gallery]");
+    if (!link) return;
+    event.preventDefault();
+    const sourceImage = link.querySelector("img");
+    const image = lightbox.querySelector("img");
+    image.src = link.href;
+    image.alt = sourceImage.alt;
+    lightbox.querySelector(".lightbox-caption").textContent = sourceImage.alt;
+    lightbox.showModal();
   });
   lightbox
     .querySelector("button")

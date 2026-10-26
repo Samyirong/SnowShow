@@ -287,5 +287,31 @@ window.SNOW_RESORTS = [
     years: [2026],
     lat: 50.116272,
     lng: -122.957125,
+    photos: [
+      {
+        src: "images/resorts/whistler/mountain-panorama.webp",
+        alt: "惠斯勒群峰與雪谷全景",
+      },
+      {
+        src: "images/resorts/whistler/summit-landmark.webp",
+        alt: "惠斯勒山頂雕像與遠方群峰",
+      },
+      {
+        src: "images/resorts/whistler/olympic-rings.webp",
+        alt: "雪山前的奧運五環",
+      },
+      {
+        src: "images/resorts/whistler/forest-ridge.webp",
+        alt: "雪道、森林與遠山",
+      },
+      {
+        src: "images/resorts/whistler/cloud-sea.webp",
+        alt: "雲霧環繞的惠斯勒山谷",
+      },
+      {
+        src: "images/resorts/whistler/peak-to-peak.webp",
+        alt: "雲海中的 PEAK 2 PEAK 紅色纜車",
+      },
+    ],
   },
 ];

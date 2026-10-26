@@ -1,4 +1,229 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@600;700&display=swap");
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+.scenery-main {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 5% 70px;
+}
+.scenery-main .page-intro h1 {
+  overflow-wrap: anywhere;
+}
+.scenery-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.scenery-toolbar input,
+.scenery-toolbar select {
+  padding: 12px 14px;
+  background: white;
+  border: 1px solid var(--line);
+  font: 12px var(--sans);
+  color: var(--ink);
+  min-height: 44px;
+  border-radius: 3px;
+}
+.scenery-toolbar input {
+  width: 330px;
+  max-width: 100%;
+}
+.scenery-toolbar > span {
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: auto;
+}
+.resort-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+.scenery-card {
+  background: white;
+  border: 1px solid var(--line);
+  overflow: hidden;
+  min-width: 0;
+}
+.scenery-card > img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: filter 0.2s;
+}
+.scenery-card:hover > img {
+  filter: brightness(1.07);
+}
+.scenery-placeholder {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e9eee3;
+  color: #7c8e76;
+  gap: 12px;
+}
+.scenery-placeholder > span:first-child {
+  font-size: 50px;
+  line-height: 1;
+}
+.scenery-placeholder > span:last-child {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+.scenery-card-body {
+  padding: 20px;
+}
+.scenery-card-body .eyebrow {
+  font-size: 8px;
+  color: var(--orange);
+  letter-spacing: 0.08em;
+  line-height: 1.8;
+}
+.scenery-card-body h2 {
+  font-size: 20px;
+  margin: 10px 0 16px;
+  line-height: 1.5;
+}
+.scenery-card-body > span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.detail-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid var(--line);
+  padding: 20px 0 30px;
+  font-size: 12px;
+}
+.scenery-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+.scenery-detail-grid figure {
+  margin: 0;
+  min-width: 0;
+}
+.scenery-detail-grid img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+.scenery-detail-grid a {
+  display: block;
+  cursor: zoom-in;
+}
+.scenery-detail-grid figcaption {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 12px 0;
+}
+.scenery-pending {
+  text-align: center;
+  padding: 70px 20px;
+  background: #eaf0e5;
+}
+.scenery-pending > span {
+  font-size: 65px;
+  color: #77906e;
+  line-height: 1.4;
+}
+.scenery-pending h2 {
+  font-size: 26px;
+  margin: 18px 0 14px;
+}
+.scenery-pending p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 25px;
+}
+.scenery-empty {
+  padding: 50px 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+.popup-scenery {
+  display: block;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin: 12px 0;
+}
+@media (max-width: 1000px) {
+  .resort-catalog {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .scenery-detail-grid img {
+    height: 260px;
+  }
+}
+@media (max-width: 760px) {
+  .scenery-main {
+    padding: 0 6% 45px;
+  }
+  .scenery-main .page-intro h1 {
+    font-size: 32px;
+  }
+  .scenery-toolbar {
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+  .scenery-toolbar input {
+    width: 100%;
+    font-size: 16px;
+  }
+  .scenery-toolbar > span {
+    font-size: 10px;
+  }
+  .resort-catalog {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .scenery-card > img,
+  .scenery-placeholder {
+    height: 220px;
+  }
+  .scenery-detail-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .scenery-detail-grid img {
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  .scenery-detail-grid figcaption {
+    font-size: 11px;
+  }
+  .detail-links {
+    font-size: 11px;
+  }
+  .scenery-pending {
+    padding: 40px 20px;
+  }
+  .scenery-pending h2 {
+    font-size: 23px;
+  }
+  .photo-grid > a:last-child:nth-child(even) {
+    grid-column: auto;
+  }
+  .photo-grid > a:last-child:nth-child(even) img {
+    height: 170px;
+  }
+}
 :root {
   --pine: #173e39;
   --ink: #1d332e;
