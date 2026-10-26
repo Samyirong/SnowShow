@@ -162,6 +162,12 @@ window.SNOW_RESORTS = [
     years: [2023, 2024],
     lat: 36.9830091199946,
     lng: 138.82501011214217,
+    photos: [
+      {
+        src: "images/resorts/maiko/mountain-bowl.webp",
+        alt: "舞子雪坡與層層環繞的雪山",
+      },
+    ],
   },
   {
     id: 7,
@@ -178,6 +184,20 @@ window.SNOW_RESORTS = [
     years: [2023, 2024],
     lat: 36.97947193344159,
     lng: 138.80261555447123,
+    photos: [
+      {
+        src: "images/resorts/ishiuchi-maruyama/blue-sky-valley.webp",
+        alt: "石打丸山藍天下的雪道與谷地",
+      },
+      {
+        src: "images/resorts/ishiuchi-maruyama/sunrise-base.webp",
+        alt: "石打丸山山麓的 Sunrise Express 纜車站",
+      },
+      {
+        src: "images/resorts/ishiuchi-maruyama/snow-terrace.webp",
+        alt: "石打丸山雪地露台與遠山",
+      },
+    ],
   },
   {
     id: 9,
@@ -186,6 +206,20 @@ window.SNOW_RESORTS = [
     years: [2023, 2024],
     lat: 37.03346165848085,
     lng: 138.8194683951674,
+    photos: [
+      {
+        src: "images/resorts/joetsu-kokusai/lift-panorama.webp",
+        alt: "上越國際纜車線與廣闊雪山全景",
+      },
+      {
+        src: "images/resorts/joetsu-kokusai/open-snowfield.webp",
+        alt: "上越國際開闊雪道與林間山稜",
+      },
+      {
+        src: "images/resorts/joetsu-kokusai/distant-peaks.webp",
+        alt: "上越國際望向遠方綿延雪峰",
+      },
+    ],
   },
   {
     id: 10,
@@ -194,6 +228,12 @@ window.SNOW_RESORTS = [
     years: [2010, 2012, 2015, 2023, 2024],
     lat: 36.79217510012147,
     lng: 138.7846505391231,
+    photos: [
+      {
+        src: "images/resorts/naeba/gondola-slope.webp",
+        alt: "苗場纜車下的雪坡與山麓建築",
+      },
+    ],
   },
   {
     id: 11,
