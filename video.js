@@ -1,12 +1,18 @@
 (() => {
   "use strict";
   const resorts = window.SNOW_RESORTS || [];
+  const groups = window.SNOW_SHARED_GALLERIES || [];
   const collection = document.querySelector("#resort-films");
   const detail = document.querySelector("#resort-film-players");
   const requestedId = new URLSearchParams(window.location.search).get("id");
+  const requestedGroup = new URLSearchParams(window.location.search).get(
+    "group",
+  );
   const selected = collection
-    ? resorts
-    : resorts.filter((resort) => String(resort.id) === requestedId);
+    ? [...resorts, ...groups]
+    : requestedGroup !== null
+      ? groups.filter((group) => group.id === requestedGroup)
+      : resorts.filter((resort) => String(resort.id) === requestedId);
   const create = (tag, className, text) => {
     const element = document.createElement(tag);
     if (className) element.className = className;
@@ -63,7 +69,10 @@
       );
       body.append(create("p", "film-description", clip.title));
       const link = create("a", "small-note film-album-link", "查看雪場風景 ↗");
-      link.href = "resort.html?id=" + resort.id;
+      link.href =
+        "resort.html?" +
+        (resort.memberIds ? "group=" : "id=") +
+        encodeURIComponent(resort.id);
       if (collection) body.append(link);
       meta.append(number, body);
       const error = create("p", "video-error");

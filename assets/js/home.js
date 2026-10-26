@@ -1,5 +1,7 @@
 (() => {
   const resorts = window.SNOW_RESORTS || [];
+  const groups = window.SNOW_SHARED_GALLERIES || [];
+  const albums = [...resorts.filter((r) => !r.sharedGalleryId), ...groups];
   const setCount = (selector, value) =>
     document
       .querySelectorAll(selector)
@@ -8,19 +10,22 @@
     setCount(
       "[data-home-albums]",
       new Set(
-        resorts
+        albums
           .filter((r) => r.photos?.length)
           .map((r) => r.galleryGroup || r.id),
       ).size,
     );
     setCount(
       "[data-home-clips]",
-      new Set(resorts.flatMap((r) => (r.videos || []).map((v) => v.src))).size,
+      new Set(albums.flatMap((r) => (r.videos || []).map((v) => v.src))).size,
     );
     document.querySelectorAll("[data-home-resort-count]").forEach((el) => {
-      const resort = resorts.find(
+      const source = resorts.find(
         (r) => r.id === Number(el.dataset.homeResortCount),
       );
+      const resort = source?.sharedGalleryId
+        ? groups.find((g) => g.id === source.sharedGalleryId)
+        : source;
       if (resort)
         el.textContent = `${resort.photos?.length || 0} 張照片${resort.videos?.length ? " · 有短片" : ""}`;
     });

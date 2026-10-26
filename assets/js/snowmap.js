@@ -69,10 +69,14 @@
         popup.append(photoLink);
       }
       const galleryLink = document.createElement("a");
-      galleryLink.href = "resort.html?id=" + resort.id;
-      galleryLink.textContent = resort.photos?.length
-        ? "查看雪場風景 ↗"
-        : "雪場相簿 · 風景照整理中 ↗";
+      galleryLink.href = resort.sharedGalleryId
+        ? "resort.html?group=" + encodeURIComponent(resort.sharedGalleryId)
+        : "resort.html?id=" + resort.id;
+      galleryLink.textContent = resort.sharedGalleryId
+        ? "查看連通雪域相簿（未逐張定位） ↗"
+        : resort.photos?.length
+          ? "查看雪場風景 ↗"
+          : "雪場相簿 · 風景照整理中 ↗";
       popup.append(galleryLink);
       if (resort.video) {
         const link = document.createElement("a");

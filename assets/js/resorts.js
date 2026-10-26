@@ -10,26 +10,32 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/asarigawa/lift-valley.webp",
         alt: "纜車線延伸向雲霧中的朝里川山谷",
+        year: 2025,
       },
       {
         src: "images/resorts/asarigawa/chairlift-mist.webp",
         alt: "霧中沿雪道延伸的纜車",
+        year: 2025,
       },
       {
         src: "images/resorts/asarigawa/cloudy-slope.webp",
         alt: "厚雲下的寬闊雪坡",
+        year: 2025,
       },
       {
         src: "images/resorts/asarigawa/extra-snowfall-forest.webp",
         alt: "降雪中的朝里川林緣與雪坡（影片擷取）",
+        year: 2025,
       },
       {
         src: "images/resorts/asarigawa/extra-powder-field.webp",
         alt: "朝里川雪道旁的厚實積雪（影片擷取）",
+        year: 2025,
       },
       {
         src: "images/resorts/asarigawa/extra-snowy-path-trees.webp",
         alt: "朝里川雪道旁的深厚積雪（影片擷取）",
+        year: 2025,
       },
     ],
     videos: [
@@ -54,31 +60,36 @@ window.SNOW_RESORTS = [
     lng: 141.08284687004138,
     photos: [
       {
+        src: "images/resorts/sapporo-kokusai/extra-torii-clouds.webp",
+        alt: "札幌國際雪原上的鳥居與雲層",
+        position: "50% 65%",
+        year: 2025,
+      },
+      {
         src: "images/resorts/sapporo-kokusai/resort-sign.webp",
         alt: "札幌國際滑雪場木柱招牌與雪道",
-      },
-      {
-        src: "images/resorts/sapporo-kokusai/torii-snow-trees.webp",
-        alt: "樹冰林前的紅色鳥居",
-      },
-      {
-        src: "images/resorts/sapporo-kokusai/torii-wide.webp",
-        alt: "雪原上的紅色鳥居與遠山",
-      },
-      {
-        src: "images/resorts/sapporo-kokusai/extra-entrance-tower.webp",
-        alt: "札幌國際入口的木造鐘塔與雪地",
-        position: "50% 30%",
+        year: 2025,
       },
       {
         src: "images/resorts/sapporo-kokusai/extra-snow-dome.webp",
         alt: "札幌國際雪場覆雪的圓頂小屋",
         position: "50% 60%",
+        year: 2025,
       },
       {
-        src: "images/resorts/sapporo-kokusai/extra-torii-clouds.webp",
-        alt: "札幌國際雪原上的鳥居與雲層",
-        position: "50% 65%",
+        src: "images/resorts/sapporo-kokusai/torii-snow-trees.webp",
+        alt: "樹冰林前的紅色鳥居",
+        year: 2025,
+      },
+      {
+        src: "images/resorts/reselected/2-2025-torii-sky.webp",
+        alt: "札幌國際雪原鳥居上方的流雲",
+        year: 2025,
+      },
+      {
+        src: "images/resorts/reselected/2-2025-snow-dome-inside.webp",
+        alt: "札幌國際雪屋內的滑雪旅途紀念",
+        year: 2025,
       },
     ],
     videos: [
@@ -105,27 +116,33 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/hoshino-tomamu/summit-panorama.webp",
         alt: "山頂俯瞰層疊的群峰與雪道",
+        year: 2025,
       },
       {
         src: "images/resorts/hoshino-tomamu/twin-towers.webp",
         alt: "藍天下的 TOMAMU 雙塔",
+        year: 2025,
       },
       {
         src: "images/resorts/hoshino-tomamu/tower-view.webp",
         alt: "從飯店窗邊望向雪場與山稜",
-      },
-      {
-        src: "images/resorts/hoshino-tomamu/resort-valley.webp",
-        alt: "俯瞰雪白的度假區與山谷",
+        year: 2025,
       },
       {
         src: "images/resorts/hoshino-tomamu/night-towers.webp",
         alt: "夜色中點燈的森林與雙塔",
+        year: 2025,
       },
       {
         src: "images/resorts/hoshino-tomamu/extra-night-walkway.webp",
         alt: "星野 TOMAMU 冬夜的木造步道",
         position: "50% 58%",
+        year: 2025,
+      },
+      {
+        src: "images/resorts/reselected/3-2025-towers-snow-forest.webp",
+        alt: "TOMAMU 雪林間的雙塔與藍天",
+        year: 2025,
       },
     ],
     videos: [
@@ -150,68 +167,55 @@ window.SNOW_RESORTS = [
     lng: 142.35355223326616,
     photos: [
       {
-        src: "images/resorts/furano/basin-clouds.webp",
-        alt: "雲層下的富良野盆地與遠方山脈",
+        src: "images/resorts/furano/frosted-ridge.webp",
+        alt: "樹冰山脊與遼闊雪原",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/lone-tree.webp",
         alt: "山頂枯樹與遠方雪原",
-      },
-      {
-        src: "images/resorts/furano/cloud-bank.webp",
-        alt: "積雲湧起的富良野平原",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/snow-squall.webp",
         alt: "雪雲飄過盆地上空",
-      },
-      {
-        src: "images/resorts/furano/frosted-ridge.webp",
-        alt: "樹冰山脊與遼闊雪原",
-      },
-      {
-        src: "images/resorts/furano/open-field.webp",
-        alt: "纜車線下的寬闊雪原",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/furano-base-sign.webp",
         alt: "藍天下的富良野地標與雪場山麓",
         position: "50% 68%",
-      },
-      {
-        src: "images/resorts/furano/winter-slope-view.webp",
-        alt: "暮色與薄霧中的富良野雪道",
-        position: "50% 65%",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/warm-tent-night.webp",
         alt: "富良野雪林裡亮起暖光的帳篷",
         position: "50% 60%",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/lantern-snow-path.webp",
         alt: "燈籠沿著積雪步道延伸進森林",
         position: "50% 65%",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/forest-cabin-night.webp",
         alt: "雪林木屋與門前亮起的燈火",
         position: "50% 63%",
-      },
-      {
-        src: "images/resorts/furano/village-walkway.webp",
-        alt: "富良野冬夜的木屋與林間小徑",
-        position: "50% 65%",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/snowy-trees-blue-sky.webp",
         alt: "藍天白雲下的樹冰與遠方山景",
         position: "50% 72%",
+        year: 2025,
       },
       {
         src: "images/resorts/furano/twilight-snowfield.webp",
         alt: "富良野周邊雪原上的夕色與流雲",
         position: "50% 65%",
+        year: 2025,
       },
     ],
     videos: [
@@ -238,27 +242,33 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/mt-buller/2023-village-square.webp",
         alt: "2023 年布勒山村落廣場與雪季入口",
+        year: 2023,
       },
       {
         src: "images/resorts/mt-buller/2023-tree-lined-slope.webp",
         alt: "2023 年布勒山纜車下的林間雪坡",
+        year: 2023,
       },
       {
         src: "images/resorts/mt-buller/2023-chairlift-in-fog.webp",
         alt: "2023 年布勒山霧中的纜車與雪林",
         position: "50% 10%",
+        year: 2023,
       },
       {
         src: "images/resorts/mt-buller/extra-village-from-lift.webp",
         alt: "布勒山從纜車望向村落與雪道（影片擷取）",
+        year: 2023,
       },
       {
         src: "images/resorts/mt-buller/extra-lift-base-buildings.webp",
         alt: "布勒山纜車線旁的山麓建築（影片擷取）",
+        year: 2023,
       },
       {
         src: "images/resorts/mt-buller/extra-foggy-tree-run.webp",
         alt: "布勒山薄霧中的雪坡與林帶（影片擷取）",
+        year: 2023,
       },
     ],
     videos: [
@@ -285,27 +295,33 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/maiko/mountain-bowl.webp",
         alt: "舞子雪坡與層層環繞的雪山",
+        year: 2024,
       },
       {
         src: "images/resorts/maiko/2023-snowy-trees.webp",
         alt: "2023 年舞子雪場山麓覆雪的樹林",
+        year: 2023,
       },
       {
         src: "images/resorts/maiko/2023-cloudy-snow-ridges.webp",
         alt: "2023 年舞子雲霧下起伏的雪道與山稜",
+        year: 2023,
       },
       {
         src: "images/resorts/maiko/2023-misty-valley.webp",
         alt: "2023 年舞子雪坡望向雲霧中的山谷",
+        year: 2023,
       },
       {
         src: "images/resorts/maiko/extra-terrace-mountains.webp",
         alt: "舞子露臺上眺望連綿雪山",
         position: "50% 15%",
+        year: 2024,
       },
       {
         src: "images/resorts/maiko/extra-winter-base-scene.webp",
         alt: "舞子山麓的冬日雪場景象",
+        year: 2023,
       },
     ],
     videos: [
@@ -330,29 +346,35 @@ window.SNOW_RESORTS = [
     lng: 138.84098915021528,
     photos: [
       {
-        src: "images/resorts/iwappara/misty-snow-slopes.webp",
-        alt: "薄霧中的岩原寬闊雪坡與纜車線",
-        position: "50% 45%",
+        src: "images/resorts/iwappara/2023-sunlit-valley.webp",
+        alt: "2023 年岩原雪坡上的冬日陽光與谷地全景",
+        year: 2023,
       },
       {
         src: "images/resorts/iwappara/2023-sunny-base.webp",
         alt: "2023 年岩原晴天的山麓建築與雪景",
+        year: 2023,
       },
       {
-        src: "images/resorts/iwappara/2023-sunlit-valley.webp",
-        alt: "2023 年岩原雪坡上的冬日陽光與谷地全景",
-      },
-      {
-        src: "images/resorts/iwappara/extra-winter-sun-panorama.webp",
-        alt: "岩原晴空下的冬日群峰",
+        src: "images/resorts/iwappara/misty-snow-slopes.webp",
+        alt: "薄霧中的岩原寬闊雪坡與纜車線",
+        position: "50% 45%",
+        year: 2024,
       },
       {
         src: "images/resorts/iwappara/extra-blue-sky-snowfield.webp",
         alt: "岩原藍天下的寬闊雪原（影片擷取）",
+        year: 2023,
       },
       {
         src: "images/resorts/iwappara/extra-slope-side-lodge.webp",
         alt: "岩原雪道旁的山屋與晴空（影片擷取）",
+        year: 2023,
+      },
+      {
+        src: "images/resorts/reselected/7-2023-sunny-open-base.webp",
+        alt: "岩原晴空下的寬闊雪原與山麓",
+        year: 2023,
       },
     ],
     videos: [
@@ -377,29 +399,35 @@ window.SNOW_RESORTS = [
     lng: 138.80261555447123,
     photos: [
       {
+        src: "images/resorts/ishiuchi-maruyama/extra-layered-snow-peaks.webp",
+        alt: "石打丸山眺望層層起伏的雪峰",
+        year: 2023,
+      },
+      {
         src: "images/resorts/ishiuchi-maruyama/blue-sky-valley.webp",
         alt: "石打丸山藍天下的雪道與谷地",
+        year: 2024,
       },
       {
         src: "images/resorts/ishiuchi-maruyama/sunrise-base.webp",
         alt: "石打丸山山麓的 Sunrise Express 纜車站",
+        year: 2024,
       },
       {
         src: "images/resorts/ishiuchi-maruyama/snow-terrace.webp",
         alt: "石打丸山雪地露台與遠山",
+        year: 2024,
       },
       {
         src: "images/resorts/ishiuchi-maruyama/2023-lift-valley.webp",
         alt: "2023 年石打丸山纜車旁開闊的雪山谷地",
+        year: 2023,
       },
       {
         src: "images/resorts/ishiuchi-maruyama/extra-ishiuchi-landmark.webp",
         alt: "石打丸山雪林中的 ISHIUCHI 地標",
         position: "50% 50%",
-      },
-      {
-        src: "images/resorts/ishiuchi-maruyama/extra-layered-snow-peaks.webp",
-        alt: "石打丸山眺望層層起伏的雪峰",
+        year: 2023,
       },
     ],
     videos: [
@@ -426,28 +454,34 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/joetsu-kokusai/lift-panorama.webp",
         alt: "上越國際纜車線與廣闊雪山全景",
+        year: 2024,
       },
       {
         src: "images/resorts/joetsu-kokusai/open-snowfield.webp",
         alt: "上越國際開闊雪道與林間山稜",
+        year: 2024,
       },
       {
         src: "images/resorts/joetsu-kokusai/distant-peaks.webp",
         alt: "上越國際望向遠方綿延雪峰",
+        year: 2024,
       },
       {
         src: "images/resorts/joetsu-kokusai/2023-fresh-snow-lift.webp",
         alt: "2023 年上越國際晴空下的纜車與新雪森林",
+        year: 2023,
       },
       {
         src: "images/resorts/joetsu-kokusai/extra-sunny-village-lodges.webp",
         alt: "上越國際晴空下的山麓木屋",
         position: "50% 15%",
+        year: 2023,
       },
       {
         src: "images/resorts/joetsu-kokusai/extra-chairlift-blue-slope.webp",
         alt: "上越國際纜車線旁的白色山坡",
         position: "50% 60%",
+        year: 2023,
       },
     ],
     videos: [
@@ -472,64 +506,49 @@ window.SNOW_RESORTS = [
     lng: 138.7846505391231,
     photos: [
       {
-        src: "images/resorts/naeba/gondola-slope.webp",
-        alt: "苗場纜車下的雪坡與山麓建築",
+        src: "images/resorts/naeba/2015-01.webp",
+        alt: "2015 年苗場：晴空下的雪道與群山",
+        year: 2015,
       },
       {
         src: "images/resorts/naeba/2023-cloudy-peaks.webp",
         alt: "2023 年苗場高處的雪峰、雲霧與纜車",
+        year: 2023,
+      },
+      {
+        src: "images/resorts/naeba/gondola-slope.webp",
+        alt: "苗場纜車下的雪坡與山麓建築",
+        year: 2024,
       },
       {
         src: "images/resorts/naeba/extra-clouds-chairlift-slope.webp",
         alt: "苗場雲影與纜車下的寬闊雪坡（影片擷取）",
-      },
-      {
-        src: "images/resorts/naeba/extra-prince-hotel-snow.webp",
-        alt: "苗場王子飯店前的冬日雪景（影片擷取）",
+        year: 2023,
       },
       {
         src: "images/resorts/naeba/extra-forest-valley-trail.webp",
         alt: "苗場雪道望向林帶與霧中山谷（影片擷取）",
-      },
-      {
-        src: "images/resorts/naeba/extra-quiet-woodland-trail.webp",
-        alt: "苗場落葉雪林間的靜謐雪道（影片擷取）",
-      },
-      {
-        src: "images/resorts/naeba/extra-base-lift-snowfield.webp",
-        alt: "苗場山麓的纜車與雪原（影片擷取）",
-      },
-      {
-        src: "images/resorts/naeba/2015-01.webp",
-        alt: "2015 年苗場：晴空下的雪道與群山",
-      },
-      {
-        src: "images/resorts/naeba/2015-02.webp",
-        alt: "2015 年苗場：王子飯店前的冬日雪景",
-      },
-      {
-        src: "images/resorts/naeba/2015-03.webp",
-        alt: "2015 年苗場：藍天下的雪場路線圖",
+        year: 2024,
       },
       {
         src: "images/resorts/naeba/2015-04.webp",
         alt: "2015 年苗場：從苗場出發的 Dragondola 雪谷風景",
+        year: 2015,
       },
       {
         src: "images/resorts/naeba/2015-05.webp",
         alt: "2015 年苗場：從纜車眺望雪道與谷地",
+        year: 2015,
       },
       {
         src: "images/resorts/naeba/2015-06.webp",
         alt: "2015 年苗場：雪道岔口的彩色指標",
+        year: 2015,
       },
       {
-        src: "images/resorts/naeba/2015-07.webp",
-        alt: "2015 年苗場：樹林間的粉雪與滑行痕跡",
-      },
-      {
-        src: "images/resorts/naeba/2015-08.webp",
-        alt: "2015 年苗場：雪場山麓的王子飯店",
+        src: "images/resorts/naeba/2015-02.webp",
+        alt: "2015 年苗場：王子飯店前的冬日雪景",
+        year: 2015,
       },
     ],
     videos: [
@@ -565,57 +584,34 @@ window.SNOW_RESORTS = [
     lng: 138.72646911028997,
     photos: [
       {
-        src: "images/resorts/kagura/2023-snowy-chalet.webp",
-        alt: "2023 年神樂雪場積雪中的木屋",
-      },
-      {
-        src: "images/resorts/kagura/extra-chalet-front-snow.webp",
-        alt: "神樂雪場木屋正面的積雪風景",
-      },
-      {
-        src: "images/resorts/kagura/extra-chalet-wide-snowfield.webp",
-        alt: "神樂雪原與木屋的寬景",
-      },
-      {
-        src: "images/resorts/kagura/extra-chalet-gable.webp",
-        alt: "神樂雪場木屋的屋頂與雪地",
-      },
-      {
-        src: "images/resorts/kagura/extra-chalet-forest-edge.webp",
-        alt: "神樂林緣雪地裡的木屋",
-      },
-      {
-        src: "images/resorts/kagura/extra-snowfield-lift-lines.webp",
-        alt: "神樂纜車線下的雪原與山屋",
-        position: "50% 40%",
-      },
-      {
         src: "images/resorts/kagura/2015-01.webp",
         alt: "2015 年神樂：山稜前的滑雪紀念",
+        year: 2015,
       },
       {
         src: "images/resorts/kagura/2015-02.webp",
         alt: "2015 年神樂：藍天下的雪坡與纜車",
+        year: 2015,
       },
       {
         src: "images/resorts/kagura/2015-03.webp",
         alt: "2015 年神樂：雪地裡的和田小屋",
+        year: 2015,
       },
       {
         src: "images/resorts/kagura/2015-04.webp",
         alt: "2015 年神樂：かぐら區入口與寬闊雪道",
+        year: 2015,
       },
       {
         src: "images/resorts/kagura/2015-05.webp",
         alt: "2015 年神樂：白樺雪林間的一段滑行",
+        year: 2015,
       },
       {
-        src: "images/resorts/kagura/2015-06.webp",
-        alt: "2015 年神樂：和田小屋外的同行紀念",
-      },
-      {
-        src: "images/resorts/kagura/2015-07.webp",
-        alt: "2015 年神樂：纜車線旁的滑雪片刻",
+        src: "images/resorts/kagura/2023-snowy-chalet.webp",
+        alt: "2023 年神樂雪場積雪中的木屋",
+        year: 2023,
       },
     ],
     videos: [
@@ -653,26 +649,32 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/shiga-yakebitai/2020-01.webp",
         alt: "燒額山王子飯店前的雪原與覆雪林帶",
+        year: 2020,
       },
       {
         src: "images/resorts/shiga-yakebitai/2020-summit-forest.webp",
         alt: "燒額山山頂覆雪針葉林（裁切避開人物）",
+        year: 2020,
       },
       {
         src: "images/resorts/shiga-yakebitai/2020-extra-snowy-branches.webp",
         alt: "燒額山山頂雪林與厚實積雪（裁切避開人物）",
+        year: 2020,
       },
       {
         src: "images/resorts/shiga-yakebitai/2020-extra-prince-lodge-memory.webp",
         alt: "燒額山王子飯店前的滑雪紀念",
+        year: 2020,
       },
       {
         src: "images/resorts/shiga-yakebitai/2020-extra-summit-ski-memory.webp",
         alt: "燒額山 2000 m 山頂的滑雪合照",
+        year: 2020,
       },
       {
         src: "images/resorts/shiga-yakebitai/2020-extra-gondola-memory.webp",
         alt: "燒額山纜車內的同行紀念（影片擷取）",
+        year: 2020,
       },
     ],
     videos: [
@@ -721,36 +723,39 @@ window.SNOW_RESORTS = [
     lng: 138.45235538330436,
     photos: [
       {
+        src: "images/resorts/nozawa-onsen/2020-06.webp",
+        alt: "野澤藍天下的寬闊雪道",
+        year: 2020,
+      },
+      {
         src: "images/resorts/nozawa-onsen/2020-03.webp",
         alt: "野澤溫泉晨光下的雪道與山稜",
+        year: 2020,
       },
       {
         src: "images/resorts/nozawa-onsen/2020-04.webp",
         alt: "野澤山頂纜車站旁的晴空與群峰",
+        year: 2020,
       },
       {
         src: "images/resorts/nozawa-onsen/2020-05.webp",
         alt: "野澤雪坡上眺望連綿雪山",
-      },
-      {
-        src: "images/resorts/nozawa-onsen/2020-06.webp",
-        alt: "野澤藍天下的寬闊雪道",
+        year: 2020,
       },
       {
         src: "images/resorts/nozawa-onsen/2020-07.webp",
         alt: "野澤溫泉山頂的全景雪山",
-      },
-      {
-        src: "images/resorts/nozawa-onsen/2020-08.webp",
-        alt: "野澤林緣雪道與遠方山景",
+        year: 2020,
       },
       {
         src: "images/resorts/nozawa-onsen/2020-extra-clouds-tower.webp",
         alt: "野澤溫泉山頂的雲層與雪林",
+        year: 2020,
       },
       {
         src: "images/resorts/nozawa-onsen/2020-extra-valley-ridges.webp",
         alt: "野澤溫泉雪道遠望山谷與層疊山稜",
+        year: 2020,
       },
     ],
     videos: [
@@ -777,26 +782,32 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/togakushi/2020-09.webp",
         alt: "戶隱纜車上望向覆雪樹林與遠山",
+        year: 2020,
       },
       {
         src: "images/resorts/togakushi/2020-10.webp",
         alt: "戶隱雪道與雪林間的滑雪設施（影片擷取）",
+        year: 2020,
       },
       {
         src: "images/resorts/togakushi/2020-extra-base-slope.webp",
         alt: "戶隱山麓建築與林間雪道",
+        year: 2020,
       },
       {
         src: "images/resorts/togakushi/2020-extra-base-ski-memory.webp",
         alt: "戶隱雪場山麓的滑雪紀念",
+        year: 2020,
       },
       {
         src: "images/resorts/togakushi/2020-extra-snowboard-approach.webp",
         alt: "戶隱雪道的單板滑行（影片擷取）",
+        year: 2020,
       },
       {
         src: "images/resorts/togakushi/2020-extra-skiing-passage.webp",
         alt: "戶隱雪道旁的滑行片刻（影片擷取）",
+        year: 2020,
       },
     ],
     videos: [
@@ -824,26 +835,32 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/sugadaira-kogen/2020-11.webp",
         alt: "菅平高原晴天下的起伏雪山",
+        year: 2020,
       },
       {
         src: "images/resorts/sugadaira-kogen/2020-extra-rime-trees.webp",
         alt: "菅平高原的霧淞與山頂雪原（裁切避開人物）",
+        year: 2020,
       },
       {
         src: "images/resorts/sugadaira-kogen/2020-extra-grey-skier.webp",
         alt: "菅平高原雪原與滑雪紀念",
+        year: 2020,
       },
       {
         src: "images/resorts/sugadaira-kogen/2020-extra-snowboard-summit.webp",
         alt: "菅平高原霧淞旁的單板紀念",
+        year: 2020,
       },
       {
         src: "images/resorts/sugadaira-kogen/2020-extra-blue-skier.webp",
         alt: "菅平高原山頂的雪景與滑雪紀念",
+        year: 2020,
       },
       {
         src: "images/resorts/sugadaira-kogen/2020-extra-summit-group.webp",
         alt: "菅平高原奧達沃斯雪場的同行合照",
+        year: 2020,
       },
     ],
     videos: [
@@ -869,36 +886,34 @@ window.SNOW_RESORTS = [
     lng: 138.15506999679596,
     photos: [
       {
+        src: "images/resorts/myoko-suginohara/2019-04.webp",
+        alt: "杉之原覆雪樹林與遠方雲海",
+        year: 2019,
+      },
+      {
         src: "images/resorts/myoko-suginohara/2019-01.webp",
         alt: "晴空下的杉之原雪原與遠山",
+        year: 2019,
       },
       {
         src: "images/resorts/myoko-suginohara/2019-02.webp",
         alt: "杉之原纜車線旁的山谷與群峰",
+        year: 2019,
       },
       {
         src: "images/resorts/myoko-suginohara/2019-03.webp",
         alt: "陽光穿過杉之原高聳的雪林",
-      },
-      {
-        src: "images/resorts/myoko-suginohara/2019-04.webp",
-        alt: "杉之原覆雪樹林與遠方雲海",
+        year: 2019,
       },
       {
         src: "images/resorts/myoko-suginohara/2019-05.webp",
         alt: "杉之原雪道旁的老樹與谷地",
-      },
-      {
-        src: "images/resorts/myoko-suginohara/2019-06.webp",
-        alt: "杉之原雪場出發前的同行合照",
-      },
-      {
-        src: "images/resorts/myoko-suginohara/2019-07.webp",
-        alt: "杉之原山稜前的滑雪片刻",
+        year: 2019,
       },
       {
         src: "images/resorts/myoko-suginohara/2019-08.webp",
         alt: "杉之原林間雪道與遠方山景（影片擷取）",
+        year: 2019,
       },
     ],
     videos: [
@@ -924,36 +939,34 @@ window.SNOW_RESORTS = [
     lng: 138.29136600148877,
     photos: [
       {
-        src: "images/resorts/madarao-kogen/2019-01.webp",
-        alt: "斑尾雪坡上的冬日陽光",
-      },
-      {
-        src: "images/resorts/madarao-kogen/2019-02.webp",
-        alt: "斑尾林間雪道旁的逆光",
-      },
-      {
-        src: "images/resorts/madarao-kogen/2019-03.webp",
-        alt: "斑尾雪道眺望起伏的谷地",
-      },
-      {
-        src: "images/resorts/madarao-kogen/2019-04.webp",
-        alt: "斑尾晴空下的林間粉雪",
-      },
-      {
-        src: "images/resorts/madarao-kogen/2019-05.webp",
-        alt: "斑尾 1350 m 山頂標誌與遠山",
-      },
-      {
         src: "images/resorts/madarao-kogen/2019-06.webp",
         alt: "斑尾山頂俯瞰層層雪山",
-      },
-      {
-        src: "images/resorts/madarao-kogen/2019-07.webp",
-        alt: "斑尾山麓的黃昏與整片雪坡",
+        year: 2019,
       },
       {
         src: "images/resorts/madarao-kogen/2019-08.webp",
         alt: "斑尾地標與日落時分的天空",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-07.webp",
+        alt: "斑尾山麓的黃昏與整片雪坡",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-01.webp",
+        alt: "斑尾雪坡上的冬日陽光",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-02.webp",
+        alt: "斑尾林間雪道旁的逆光",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-03.webp",
+        alt: "斑尾雪道眺望起伏的谷地",
+        year: 2019,
       },
     ],
     videos: [
@@ -980,26 +993,32 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/ikenotaira-onsen/2019-01.webp",
         alt: "池之平雪道與覆雪樹林",
+        year: 2019,
       },
       {
         src: "images/resorts/ikenotaira-onsen/2019-02.webp",
         alt: "池之平晴天的寬闊雪坡與同行雪友",
+        year: 2019,
       },
       {
         src: "images/resorts/ikenotaira-onsen/2019-03.webp",
         alt: "池之平山麓的妙高地標",
+        year: 2019,
       },
       {
         src: "images/resorts/ikenotaira-onsen/2019-04.webp",
         alt: "池之平入口前的滑雪合照",
+        year: 2019,
       },
       {
         src: "images/resorts/ikenotaira-onsen/2019-05.webp",
         alt: "池之平雪道圖前的同行紀念",
+        year: 2019,
       },
       {
         src: "images/resorts/ikenotaira-onsen/2019-06.webp",
         alt: "池之平降雪中的單板滑行",
+        year: 2019,
       },
     ],
     videos: [
@@ -1025,36 +1044,34 @@ window.SNOW_RESORTS = [
     lng: 138.18009903748572,
     photos: [
       {
-        src: "images/resorts/lotte-arai/2019-01.webp",
-        alt: "樂天 ARAI 山麓入口與覆雪群山",
+        src: "images/resorts/lotte-arai/2019-05.webp",
+        alt: "樂天 ARAI 的山碗與雲霧",
+        year: 2019,
       },
       {
-        src: "images/resorts/lotte-arai/2019-02.webp",
-        alt: "樂天 ARAI 黃色建築旁的冬日雪景",
+        src: "images/resorts/lotte-arai/2019-01.webp",
+        alt: "樂天 ARAI 山麓入口與覆雪群山",
+        year: 2019,
       },
       {
         src: "images/resorts/lotte-arai/2019-03.webp",
         alt: "樂天 ARAI 纜車站旁的厚實積雪",
+        year: 2019,
       },
       {
         src: "images/resorts/lotte-arai/2019-04.webp",
         alt: "樂天 ARAI 高處眺望雪原與谷地",
-      },
-      {
-        src: "images/resorts/lotte-arai/2019-05.webp",
-        alt: "樂天 ARAI 的山碗與雲霧",
-      },
-      {
-        src: "images/resorts/lotte-arai/2019-06.webp",
-        alt: "樂天 ARAI 雪林間眺望遠山",
+        year: 2019,
       },
       {
         src: "images/resorts/lotte-arai/2019-07.webp",
         alt: "樂天 ARAI 午後雪坡上的滑行",
+        year: 2019,
       },
       {
         src: "images/resorts/lotte-arai/2019-08.webp",
         alt: "樂天 ARAI 山麓的同行合照",
+        year: 2019,
       },
     ],
     videos: [
@@ -1080,28 +1097,34 @@ window.SNOW_RESORTS = [
     lng: 138.17671772563267,
     photos: [
       {
-        src: "images/resorts/akakura-onsen/2019-01.webp",
-        alt: "赤倉溫泉雪地中的ヨーデルロッヂ",
-      },
-      {
-        src: "images/resorts/akakura-onsen/2019-02.webp",
-        alt: "赤倉溫泉降雪中的雪坡與纜車",
+        src: "images/resorts/akakura-onsen/2019-05.webp",
+        alt: "赤倉溫泉一帶的雪山與谷地",
+        year: 2019,
       },
       {
         src: "images/resorts/akakura-onsen/2019-03.webp",
         alt: "赤倉溫泉街的雪夜",
+        year: 2019,
       },
       {
-        src: "images/resorts/akakura-onsen/2019-04.webp",
-        alt: "赤倉溫泉雪道上的同行合照",
-      },
-      {
-        src: "images/resorts/akakura-onsen/2019-05.webp",
-        alt: "赤倉溫泉一帶的雪山與谷地",
+        src: "images/resorts/akakura-onsen/2019-02.webp",
+        alt: "赤倉溫泉降雪中的雪坡與纜車",
+        year: 2019,
       },
       {
         src: "images/resorts/akakura-onsen/2019-06.webp",
         alt: "赤倉溫泉纜車線下的雪坡（影片擷取）",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-01.webp",
+        alt: "赤倉溫泉雪地中的ヨーデルロッヂ",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-04.webp",
+        alt: "赤倉溫泉雪道上的同行合照",
+        year: 2019,
       },
     ],
     videos: [
@@ -1129,28 +1152,34 @@ window.SNOW_RESORTS = [
     lng: 138.1777632581638,
     photos: [
       {
-        src: "images/resorts/akakura-kanko/2019-01.webp",
-        alt: "赤倉觀光一帶的雪林與纜車線",
-      },
-      {
         src: "images/resorts/akakura-kanko/2019-02.webp",
         alt: "赤倉觀光一帶遠望谷地的雪坡",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-01.webp",
+        alt: "赤倉觀光一帶的雪林與纜車線",
+        year: 2019,
       },
       {
         src: "images/resorts/akakura-kanko/2019-03.webp",
         alt: "赤倉觀光 Sky Cable Terminal 纜車站與雪友",
-      },
-      {
-        src: "images/resorts/akakura-kanko/2019-04.webp",
-        alt: "赤倉觀光纜車站前的滑雪紀念",
+        year: 2019,
       },
       {
         src: "images/resorts/akakura-kanko/2019-05.webp",
         alt: "赤倉觀光一帶的滑雪片刻",
+        year: 2019,
       },
       {
         src: "images/resorts/akakura-kanko/2019-06.webp",
         alt: "赤倉觀光一帶的雪坡與同行雪友",
+        year: 2019,
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-04.webp",
+        alt: "赤倉觀光纜車站前的滑雪紀念",
+        year: 2019,
       },
     ],
     videos: [
@@ -1178,32 +1207,39 @@ window.SNOW_RESORTS = [
     lng: 137.8369338509072,
     photos: [
       {
-        src: "images/resorts/hakuba-happo/2018-01.webp",
-        alt: "八方尾根山麓的晴空與雪山",
-      },
-      {
         src: "images/resorts/hakuba-happo/2018-02.webp",
         alt: "八方尾根高處的白馬連峰",
+        year: 2018,
       },
       {
-        src: "images/resorts/hakuba-happo/2018-03.webp",
-        alt: "八方尾根雪山前的滑雪紀念",
-      },
-      {
-        src: "images/resorts/hakuba-happo/2018-04.webp",
-        alt: "八方尾根寬闊雪原與山稜",
-      },
-      {
-        src: "images/resorts/hakuba-happo/2018-05.webp",
-        alt: "八方尾根山稜前的休息片刻",
-      },
-      {
-        src: "images/resorts/hakuba-happo/2018-06.webp",
-        alt: "八方尾根雪山前的同行合照",
+        src: "images/resorts/hakuba-happo/2018-01.webp",
+        alt: "八方尾根山麓的晴空與雪山",
+        year: 2018,
       },
       {
         src: "images/resorts/hakuba-happo/2018-07.webp",
         alt: "八方尾根纜車線旁的雪林",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-happo/2018-05.webp",
+        alt: "八方尾根山稜前的休息片刻",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/23-2018-hakuba-wide-ridges.webp",
+        alt: "八方尾根眺望連綿雪峰與雲層",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/23-2018-forest-gorge.webp",
+        alt: "八方尾根雪林間的白色山谷",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/23-2018-valley-snowfield.webp",
+        alt: "八方尾根雪原上遠望白馬谷地",
+        year: 2018,
       },
     ],
     videos: [
@@ -1227,49 +1263,9 @@ window.SNOW_RESORTS = [
     years: [2013, 2018],
     lat: 36.66308327865932,
     lng: 137.83705023486394,
-    photos: [
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-01.webp",
-        alt: "五龍／47 連通雪域的纜車與林間雪坡",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-02.webp",
-        alt: "五龍／47 連通雪域的谷地與滑雪紀念",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-03.webp",
-        alt: "五龍／47 連通雪域的單板滑行",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-04.webp",
-        alt: "五龍／47 連通雪域的雪稜與雲層",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-05.webp",
-        alt: "五龍／47 連通雪域的晴空與滑行",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-06.webp",
-        alt: "五龍／47 連通雪域遠望谷地（影片擷取）",
-      },
-    ],
-    videos: [
-      {
-        src: "video/resorts/hakuba-goryu-47-10s.mp4",
-        poster: "images/resorts/hakuba-goryu-47/2018-01.webp",
-        title: "五龍／47 連通雪域的一段滑行",
-        kind: "video",
-        duration: 10,
-        year: 2018,
-        width: 1280,
-        height: 720,
-        sharedTitle: "白馬五龍／47 連通雪域",
-      },
-    ],
-    photoLabel: "張連通雪域共用紀錄",
-    galleryGroup: "hakuba-goryu-47-2018",
-    classificationNote:
-      "白馬五龍／47 連通雪域共用相簿：使用者確認同日造訪兩座雪場。部分影像沒有 GPS，因此以連通行程共用呈現，不代表每張照片已逐張定位。",
+    photos: [],
+    videos: [],
+    sharedGalleryId: "goryu47-2018",
   },
   {
     id: 25,
@@ -1278,49 +1274,9 @@ window.SNOW_RESORTS = [
     years: [2013, 2018],
     lat: 36.68471783367517,
     lng: 137.82917452562566,
-    photos: [
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-01.webp",
-        alt: "五龍／47 連通雪域的纜車與林間雪坡",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-02.webp",
-        alt: "五龍／47 連通雪域的谷地與滑雪紀念",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-03.webp",
-        alt: "五龍／47 連通雪域的單板滑行",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-04.webp",
-        alt: "五龍／47 連通雪域的雪稜與雲層",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-05.webp",
-        alt: "五龍／47 連通雪域的晴空與滑行",
-      },
-      {
-        src: "images/resorts/hakuba-goryu-47/2018-06.webp",
-        alt: "五龍／47 連通雪域遠望谷地（影片擷取）",
-      },
-    ],
-    videos: [
-      {
-        src: "video/resorts/hakuba-goryu-47-10s.mp4",
-        poster: "images/resorts/hakuba-goryu-47/2018-01.webp",
-        title: "五龍／47 連通雪域的一段滑行",
-        kind: "video",
-        duration: 10,
-        year: 2018,
-        width: 1280,
-        height: 720,
-        sharedTitle: "白馬五龍／47 連通雪域",
-      },
-    ],
-    photoLabel: "張連通雪域共用紀錄",
-    galleryGroup: "hakuba-goryu-47-2018",
-    classificationNote:
-      "白馬五龍／47 連通雪域共用相簿：使用者確認同日造訪兩座雪場。部分影像沒有 GPS，因此以連通行程共用呈現，不代表每張照片已逐張定位。",
+    photos: [],
+    videos: [],
+    sharedGalleryId: "goryu47-2018",
   },
   {
     id: 26,
@@ -1329,57 +1285,9 @@ window.SNOW_RESORTS = [
     years: [2018],
     lat: 36.777291502595475,
     lng: 137.8851452967934,
-    photos: [
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-01.webp",
-        alt: "Cortina／乘鞍連通行程：Cortina 山麓的紅頂飯店",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-02.webp",
-        alt: "Cortina／乘鞍連通雪域的雲層與谷地",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-03.webp",
-        alt: "Cortina／乘鞍連通行程中的雪林與告示牌",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-04.webp",
-        alt: "Cortina／乘鞍連通行程中的林間粉雪",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-05.webp",
-        alt: "Cortina／乘鞍連通行程中的樹林滑行",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-06.webp",
-        alt: "Cortina 紅頂飯店前的冬日滑行",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-07.webp",
-        alt: "Cortina／乘鞍連通雪域的同行片刻",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-08.webp",
-        alt: "Cortina／乘鞍連通行程中的林間木屋",
-      },
-    ],
-    videos: [
-      {
-        src: "video/resorts/hakuba-cortina-norikura-10s.mp4",
-        poster: "images/resorts/hakuba-cortina-norikura/2018-01.webp",
-        title: "Cortina／乘鞍連通行程的雪林風景",
-        kind: "slideshow",
-        duration: 10,
-        year: 2018,
-        width: 1280,
-        height: 720,
-        sharedTitle: "白馬 Cortina／乘鞍連通雪域",
-      },
-    ],
-    photoLabel: "張連通雪域共用紀錄",
-    galleryGroup: "hakuba-cortina-norikura-2018",
-    classificationNote:
-      "白馬 Cortina／乘鞍連通雪域共用相簿：使用者確認同日造訪兩座雪場。部分影像沒有 GPS，因此以連通行程共用呈現，不代表每張照片已逐張定位。",
+    photos: [],
+    videos: [],
+    sharedGalleryId: "cortina-norikura-2018",
   },
   {
     id: 27,
@@ -1390,28 +1298,34 @@ window.SNOW_RESORTS = [
     lng: 137.86616802562773,
     photos: [
       {
-        src: "images/resorts/tsugaike-kogen/2018-01.webp",
-        alt: "栂池一帶覆雪的林間道路",
+        src: "images/resorts/reselected/27-2018-winter-water-snow.webp",
+        alt: "栂池高原行程中的冬日水面與雪原",
+        year: 2018,
       },
       {
-        src: "images/resorts/tsugaike-kogen/2018-02.webp",
-        alt: "栂池山麓出發前的滑雪片刻",
+        src: "images/resorts/tsugaike-kogen/2018-01.webp",
+        alt: "栂池一帶覆雪的林間道路",
+        year: 2018,
       },
       {
         src: "images/resorts/tsugaike-kogen/2018-03.webp",
         alt: "栂池高原纜車入口的同行紀念",
-      },
-      {
-        src: "images/resorts/tsugaike-kogen/2018-04.webp",
-        alt: "栂池雪場的單板與滑雪裝備",
+        year: 2018,
       },
       {
         src: "images/resorts/tsugaike-kogen/2018-05.webp",
         alt: "栂池雪場的木屋與白色雪坡（影片擷取）",
+        year: 2018,
       },
       {
         src: "images/resorts/tsugaike-kogen/2018-06.webp",
         alt: "栂池纜車上的冬日片刻（影片擷取）",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/27-2018-base-snow-lodge.webp",
+        alt: "栂池高原山麓周邊的木屋與積雪",
+        year: 2018,
       },
     ],
     videos: [
@@ -1439,26 +1353,32 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/kashimayari/2018-01.webp",
         alt: "鹿島槍林間雪道遠望谷地",
+        year: 2018,
       },
       {
         src: "images/resorts/kashimayari/2018-02.webp",
         alt: "鹿島槍清晨的雪坡與遠山",
+        year: 2018,
       },
       {
         src: "images/resorts/kashimayari/2018-03.webp",
         alt: "鹿島槍山稜前的雪道全景",
+        year: 2018,
       },
       {
         src: "images/resorts/kashimayari/2018-04.webp",
         alt: "鹿島槍午後眺望群山與雪谷",
-      },
-      {
-        src: "images/resorts/kashimayari/2018-05.webp",
-        alt: "鹿島槍晴天下的滑雪紀念",
+        year: 2018,
       },
       {
         src: "images/resorts/kashimayari/2018-06.webp",
         alt: "鹿島槍雪原上的同行合照",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/28-2018-steep-valley-view.webp",
+        alt: "鹿島槍林間雪道遠望陡峭山谷",
+        year: 2018,
       },
     ],
     videos: [
@@ -1482,57 +1402,9 @@ window.SNOW_RESORTS = [
     years: [2018],
     lat: 36.76683279612044,
     lng: 137.8742753871757,
-    photos: [
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-01.webp",
-        alt: "Cortina／乘鞍連通行程：Cortina 山麓的紅頂飯店",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-02.webp",
-        alt: "Cortina／乘鞍連通雪域的雲層與谷地",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-03.webp",
-        alt: "Cortina／乘鞍連通行程中的雪林與告示牌",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-04.webp",
-        alt: "Cortina／乘鞍連通行程中的林間粉雪",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-05.webp",
-        alt: "Cortina／乘鞍連通行程中的樹林滑行",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-06.webp",
-        alt: "Cortina 紅頂飯店前的冬日滑行",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-07.webp",
-        alt: "Cortina／乘鞍連通雪域的同行片刻",
-      },
-      {
-        src: "images/resorts/hakuba-cortina-norikura/2018-08.webp",
-        alt: "Cortina／乘鞍連通行程中的林間木屋",
-      },
-    ],
-    videos: [
-      {
-        src: "video/resorts/hakuba-cortina-norikura-10s.mp4",
-        poster: "images/resorts/hakuba-cortina-norikura/2018-01.webp",
-        title: "Cortina／乘鞍連通行程的雪林風景",
-        kind: "slideshow",
-        duration: 10,
-        year: 2018,
-        width: 1280,
-        height: 720,
-        sharedTitle: "白馬 Cortina／乘鞍連通雪域",
-      },
-    ],
-    photoLabel: "張連通雪域共用紀錄",
-    galleryGroup: "hakuba-cortina-norikura-2018",
-    classificationNote:
-      "白馬 Cortina／乘鞍連通雪域共用相簿：使用者確認同日造訪兩座雪場。部分影像沒有 GPS，因此以連通行程共用呈現，不代表每張照片已逐張定位。",
+    photos: [],
+    videos: [],
+    sharedGalleryId: "cortina-norikura-2018",
   },
   {
     id: 30,
@@ -1543,36 +1415,34 @@ window.SNOW_RESORTS = [
     lng: 140.40179966985485,
     photos: [
       {
-        src: "images/resorts/zao-onsen/2016-01.webp",
-        alt: "藏王溫泉山麓的纜車與雪坡",
-      },
-      {
-        src: "images/resorts/zao-onsen/2016-02.webp",
-        alt: "藏王覆雪樹林與山頂雲層",
+        src: "images/resorts/zao-onsen/2016-06.webp",
+        alt: "藏王厚實覆雪的針葉林",
+        year: 2016,
       },
       {
         src: "images/resorts/zao-onsen/2016-03.webp",
         alt: "藏王雪怪樹冰與滑雪山徑",
+        year: 2016,
       },
       {
         src: "images/resorts/zao-onsen/2016-04.webp",
         alt: "冬日陽光穿過藏王樹冰",
+        year: 2016,
+      },
+      {
+        src: "images/resorts/zao-onsen/2016-02.webp",
+        alt: "藏王覆雪樹林與山頂雲層",
+        year: 2016,
       },
       {
         src: "images/resorts/zao-onsen/2016-05.webp",
         alt: "藏王傍晚的雪坡與群山",
+        year: 2016,
       },
       {
-        src: "images/resorts/zao-onsen/2016-06.webp",
-        alt: "藏王厚實覆雪的針葉林",
-      },
-      {
-        src: "images/resorts/zao-onsen/2016-07.webp",
-        alt: "藏王雪林前的同行單板合照",
-      },
-      {
-        src: "images/resorts/zao-onsen/2016-08.webp",
-        alt: "藏王山頂地藏尊前的滑雪紀念",
+        src: "images/resorts/zao-onsen/2016-01.webp",
+        alt: "藏王溫泉山麓的纜車與雪坡",
+        year: 2016,
       },
     ],
     videos: [
@@ -1598,36 +1468,34 @@ window.SNOW_RESORTS = [
     lng: 140.90248824389943,
     photos: [
       {
-        src: "images/resorts/rusutsu/2016-01.webp",
-        alt: "留壽都山麓的雪場地圖與積雪",
+        src: "images/resorts/rusutsu/2016-06.webp",
+        alt: "留壽都山上眺望夕陽中的羊蹄山",
+        year: 2016,
       },
       {
         src: "images/resorts/rusutsu/2016-02.webp",
         alt: "留壽都雪林裡的冬日陽光",
+        year: 2016,
       },
       {
-        src: "images/resorts/rusutsu/2016-03.webp",
-        alt: "留壽都度假村內的冬日音樂舞台",
+        src: "images/resorts/rusutsu/2016-01.webp",
+        alt: "留壽都山麓的雪場地圖與積雪",
+        year: 2016,
       },
       {
         src: "images/resorts/rusutsu/2016-04.webp",
         alt: "留壽都冬夜的雪雕與燈飾",
+        year: 2016,
       },
       {
         src: "images/resorts/rusutsu/2016-05.webp",
         alt: "留壽都山頂的滑雪紀念",
-      },
-      {
-        src: "images/resorts/rusutsu/2016-06.webp",
-        alt: "留壽都山上眺望夕陽中的羊蹄山",
+        year: 2016,
       },
       {
         src: "images/resorts/rusutsu/2016-07.webp",
         alt: "留壽都林間雪道的陽光（影片擷取）",
-      },
-      {
-        src: "images/resorts/rusutsu/2016-08.webp",
-        alt: "留壽都樹冰前的同行合照",
+        year: 2016,
       },
     ],
     videos: [
@@ -1653,68 +1521,64 @@ window.SNOW_RESORTS = [
     lng: 140.70093145859047,
     photos: [
       {
+        src: "images/resorts/niseko/2015-02.webp",
+        alt: "2015 年二世谷：夕陽染亮羊蹄山頂",
+        year: 2015,
+      },
+      {
         src: "images/resorts/niseko/2016-01.webp",
         alt: "二世谷雪道眺望羊蹄山（影片擷取）",
+        year: 2016,
       },
       {
         src: "images/resorts/niseko/2016-02.webp",
         alt: "二世谷晴空下的山麓纜車與雪坡",
-      },
-      {
-        src: "images/resorts/niseko/2016-03.webp",
-        alt: "二世谷羊蹄山前的滑雪紀念",
-      },
-      {
-        src: "images/resorts/niseko/2016-04.webp",
-        alt: "二世谷覆雪老樹旁的休息片刻",
-      },
-      {
-        src: "images/resorts/niseko/2016-05.webp",
-        alt: "二世谷夕陽下的單板與雪坡",
+        year: 2016,
       },
       {
         src: "images/resorts/niseko/2016-06.webp",
         alt: "二世谷午後雪原與羊蹄山（影片擷取）",
-      },
-      {
-        src: "images/resorts/niseko/2016-07.webp",
-        alt: "二世谷降雪中的山頂合照",
-      },
-      {
-        src: "images/resorts/niseko/2016-08.webp",
-        alt: "二世谷雪坡與同行雪友",
+        year: 2016,
       },
       {
         src: "images/resorts/niseko/2015-01.webp",
         alt: "2015 年二世谷：晴空下的羊蹄山",
-      },
-      {
-        src: "images/resorts/niseko/2015-02.webp",
-        alt: "2015 年二世谷：夕陽染亮羊蹄山頂",
+        year: 2015,
       },
       {
         src: "images/resorts/niseko/2015-03.webp",
         alt: "2015 年二世谷：雲層下的雪道與谷地",
+        year: 2015,
       },
       {
         src: "images/resorts/niseko/2015-04.webp",
         alt: "2015 年二世谷：穿越雪林的紅色纜車",
-      },
-      {
-        src: "images/resorts/niseko/2015-05.webp",
-        alt: "2015 年二世谷：Niseko Hirafu 纜車站的滑雪紀念",
+        year: 2015,
       },
       {
         src: "images/resorts/niseko/2015-06.webp",
         alt: "2015 年二世谷：空中纜車與山麓全景",
+        year: 2015,
       },
       {
         src: "images/resorts/niseko/2015-07.webp",
         alt: "2015 年二世谷：陽光與雪林間的光影",
+        year: 2015,
       },
       {
-        src: "images/resorts/niseko/2015-08.webp",
-        alt: "2015 年二世谷：夕照羊蹄山前的一段滑行",
+        src: "images/resorts/niseko/2015-05.webp",
+        alt: "2015 年二世谷：Niseko Hirafu 纜車站的滑雪紀念",
+        year: 2015,
+      },
+      {
+        src: "images/resorts/reselected/32-2016-sunlit-birch-forest.webp",
+        alt: "二世谷白樺雪林間灑落的冬日陽光",
+        year: 2016,
+      },
+      {
+        src: "images/resorts/reselected/32-2016-pastel-yotei-evening.webp",
+        alt: "二世谷眺望暮色中的羊蹄山",
+        year: 2016,
       },
     ],
     videos: [
@@ -1752,34 +1616,37 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/appi-kogen/2014-01.webp",
         alt: "2014 年安比高原：從雪道遠望山麓與田野",
+        year: 2014,
       },
       {
         src: "images/resorts/appi-kogen/2014-02.webp",
         alt: "2014 年安比高原：陽光穿透雪霧與針葉林",
+        year: 2014,
       },
       {
         src: "images/resorts/appi-kogen/2014-03.webp",
         alt: "2014 年安比高原：藍天下的雪塑與遠山",
+        year: 2014,
       },
       {
         src: "images/resorts/appi-kogen/2014-04.webp",
         alt: "2014 年安比高原：林間雪道與寬闊山景",
+        year: 2014,
       },
       {
         src: "images/resorts/appi-kogen/2014-05.webp",
         alt: "2014 年安比高原：APPI 黃色纜車",
+        year: 2014,
       },
       {
         src: "images/resorts/appi-kogen/2014-06.webp",
         alt: "2014 年安比高原：入夜後的雪地與燈光",
+        year: 2014,
       },
       {
         src: "images/resorts/appi-kogen/2014-07.webp",
         alt: "2014 年安比高原：風雪中的雪道與樹林",
-      },
-      {
-        src: "images/resorts/appi-kogen/2014-08.webp",
-        alt: "2014 年安比高原：雪場招牌前的滑雪紀念",
+        year: 2014,
       },
     ],
     videos: [
@@ -1803,6 +1670,7 @@ window.SNOW_RESORTS = [
     years: [2008],
     lat: 39.537231673638836,
     lng: -106.06549460391365,
+    photos: [],
   },
   {
     id: 35,
@@ -1814,33 +1682,35 @@ window.SNOW_RESORTS = [
     video: "video.html",
     photos: [
       {
+        src: "images/resorts/kiroro/blue-sky-ridge.webp",
+        alt: "藍天白雲下的雪道與遠方群山",
+        year: 2025,
+      },
+      {
         src: "images/resorts/kiroro/snow-monsters.webp",
         alt: "藍天下被厚雪覆蓋的樹冰",
+        year: 2025,
       },
       {
         src: "images/resorts/kiroro/powder-forest.webp",
         alt: "粉雪起伏的樹冰森林",
-      },
-      {
-        src: "images/resorts/kiroro/forest-trail.webp",
-        alt: "穿過樹冰林的雪道",
-      },
-      {
-        src: "images/resorts/kiroro/blue-sky-ridge.webp",
-        alt: "藍天白雲下的雪道與遠方群山",
+        year: 2025,
       },
       {
         src: "images/resorts/kiroro/snow-wall.webp",
         alt: "深雪堆成的雪牆與遠方山稜",
+        year: 2025,
       },
       {
         src: "images/resorts/kiroro/lift-valley.webp",
         alt: "從纜車站俯瞰雲層下的山谷",
         position: "center 80%",
+        year: 2025,
       },
       {
         src: "images/resorts/kiroro/powder-tree.webp",
         alt: "藍天下的樹冰與起伏的粉雪",
+        year: 2025,
       },
     ],
     videos: [
@@ -1867,59 +1737,63 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/whistler/mountain-panorama.webp",
         alt: "惠斯勒群峰與雪谷全景",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/summit-landmark.webp",
         alt: "惠斯勒山頂雕像與遠方群峰",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/olympic-rings.webp",
         alt: "雪山前的奧運五環",
-      },
-      {
-        src: "images/resorts/whistler/forest-ridge.webp",
-        alt: "雪道、森林與遠山",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/cloud-sea.webp",
         alt: "雲霧環繞的惠斯勒山谷",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/peak-to-peak.webp",
         alt: "雲海中的 PEAK 2 PEAK 紅色纜車",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/alpine-forest-bowl.webp",
         alt: "惠斯勒山碗、針葉林與連綿雪峰",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/sunlit-snow-ridge.webp",
         alt: "陽光從惠斯勒雪稜後方灑落",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/late-afternoon-valley.webp",
         alt: "午後逆光照亮山谷與遠方群峰",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/sunny-chairlift.webp",
         alt: "晴空下的纜車線與寬闊雪坡",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/high-ridge-panorama.webp",
         alt: "湛藍天空下綿延的高山雪稜",
-      },
-      {
-        src: "images/resorts/whistler/stone-inukshuk.webp",
-        alt: "惠斯勒山上的因努克石像與雪林",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/village-night-lights.webp",
         alt: "惠斯勒村落夜色中的燈飾與山影",
         position: "50% 65%",
+        year: 2026,
       },
       {
         src: "images/resorts/whistler/misty-forest-trail.webp",
         alt: "薄霧環繞的雪道與覆雪針葉林",
+        year: 2026,
       },
     ],
     videos: [
@@ -1934,5 +1808,119 @@ window.SNOW_RESORTS = [
         height: 720,
       },
     ],
+  },
+];
+window.SNOW_SHARED_GALLERIES = [
+  {
+    id: "goryu47-2018",
+    name: "白馬五龍／47 連通雪域",
+    country: "日本",
+    years: [2018],
+    memberIds: [24, 25],
+    memberNames: ["白馬五龍", "白馬47"],
+    photos: [
+      {
+        src: "images/resorts/reselected/goryu47-2018-2018-sun-cloud-valley.webp",
+        alt: "五龍／47 連通行程的雲層與白馬谷地，未逐張定位",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-goryu-47/2018-04.webp",
+        alt: "五龍／47 連通雪域的雪稜與雲層",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-goryu-47/2018-06.webp",
+        alt: "五龍／47 連通雪域遠望谷地（影片擷取）",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/goryu47-2018-2018-chairlift-snow-forest.webp",
+        alt: "五龍／47 連通行程的纜車與雪林，未逐張定位",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/goryu47-2018-2018-mountain-chairlift.webp",
+        alt: "五龍／47 連通行程眺望纜車與山稜，未逐張定位",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/reselected/goryu47-2018-2018-afternoon-snow-run.webp",
+        alt: "五龍／47 連通行程午後的雪坡滑行，未逐張定位",
+        year: 2018,
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/hakuba-goryu-47-10s.mp4",
+        poster: "images/resorts/hakuba-goryu-47/2018-01.webp",
+        title: "五龍／47 連通雪域的一段滑行",
+        kind: "video",
+        duration: 10,
+        year: 2018,
+        width: 1280,
+        height: 720,
+        sharedTitle: "白馬五龍／47 連通雪域",
+      },
+    ],
+    photoLabel: "張連通行程精選",
+    classificationNote:
+      "使用者確認同日造訪兩座連通雪場，但無法逐張辨識地點，因此只在這個連通雪域相簿展示一次，不另分配給個別雪場。",
+  },
+  {
+    id: "cortina-norikura-2018",
+    name: "白馬 Cortina／乘鞍連通雪域",
+    country: "日本",
+    years: [2018],
+    memberIds: [26, 29],
+    memberNames: ["白馬Cortina", "白馬乘鞍"],
+    photos: [
+      {
+        src: "images/resorts/hakuba-cortina-norikura/2018-01.webp",
+        alt: "Cortina／乘鞍連通行程：Cortina 山麓的紅頂飯店",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-cortina-norikura/2018-02.webp",
+        alt: "Cortina／乘鞍連通雪域的雲層與谷地",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-cortina-norikura/2018-03.webp",
+        alt: "Cortina／乘鞍連通行程中的雪林與告示牌",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-cortina-norikura/2018-04.webp",
+        alt: "Cortina／乘鞍連通行程中的林間粉雪",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-cortina-norikura/2018-06.webp",
+        alt: "Cortina 紅頂飯店前的冬日滑行",
+        year: 2018,
+      },
+      {
+        src: "images/resorts/hakuba-cortina-norikura/2018-08.webp",
+        alt: "Cortina／乘鞍連通行程中的林間木屋",
+        year: 2018,
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/hakuba-cortina-norikura-10s.mp4",
+        poster: "images/resorts/hakuba-cortina-norikura/2018-01.webp",
+        title: "Cortina／乘鞍連通行程的雪林風景",
+        kind: "slideshow",
+        duration: 10,
+        year: 2018,
+        width: 1280,
+        height: 720,
+        sharedTitle: "白馬 Cortina／乘鞍連通雪域",
+      },
+    ],
+    photoLabel: "張連通行程精選",
+    classificationNote:
+      "使用者確認同日造訪兩座連通雪場，但無法逐張辨識地點，因此只在這個連通雪域相簿展示一次，不另分配給個別雪場。",
   },
 ];
