@@ -105,6 +105,46 @@ window.SNOW_RESORTS = [
         src: "images/resorts/furano/open-field.webp",
         alt: "纜車線下的寬闊雪原",
       },
+      {
+        src: "images/resorts/furano/furano-base-sign.webp",
+        alt: "藍天下的富良野地標與雪場山麓",
+        position: "50% 68%",
+      },
+      {
+        src: "images/resorts/furano/winter-slope-view.webp",
+        alt: "暮色與薄霧中的富良野雪道",
+        position: "50% 65%",
+      },
+      {
+        src: "images/resorts/furano/warm-tent-night.webp",
+        alt: "富良野雪林裡亮起暖光的帳篷",
+        position: "50% 60%",
+      },
+      {
+        src: "images/resorts/furano/lantern-snow-path.webp",
+        alt: "燈籠沿著積雪步道延伸進森林",
+        position: "50% 65%",
+      },
+      {
+        src: "images/resorts/furano/forest-cabin-night.webp",
+        alt: "雪林木屋與門前亮起的燈火",
+        position: "50% 63%",
+      },
+      {
+        src: "images/resorts/furano/village-walkway.webp",
+        alt: "富良野冬夜的木屋與林間小徑",
+        position: "50% 65%",
+      },
+      {
+        src: "images/resorts/furano/snowy-trees-blue-sky.webp",
+        alt: "藍天白雲下的樹冰與遠方山景",
+        position: "50% 72%",
+      },
+      {
+        src: "images/resorts/furano/twilight-snowfield.webp",
+        alt: "富良野周邊雪原上的夕色與流雲",
+        position: "50% 65%",
+      },
     ],
   },
   {
@@ -418,6 +458,39 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/whistler/peak-to-peak.webp",
         alt: "雲海中的 PEAK 2 PEAK 紅色纜車",
+      },
+      {
+        src: "images/resorts/whistler/alpine-forest-bowl.webp",
+        alt: "惠斯勒山碗、針葉林與連綿雪峰",
+      },
+      {
+        src: "images/resorts/whistler/sunlit-snow-ridge.webp",
+        alt: "陽光從惠斯勒雪稜後方灑落",
+      },
+      {
+        src: "images/resorts/whistler/late-afternoon-valley.webp",
+        alt: "午後逆光照亮山谷與遠方群峰",
+      },
+      {
+        src: "images/resorts/whistler/sunny-chairlift.webp",
+        alt: "晴空下的纜車線與寬闊雪坡",
+      },
+      {
+        src: "images/resorts/whistler/high-ridge-panorama.webp",
+        alt: "湛藍天空下綿延的高山雪稜",
+      },
+      {
+        src: "images/resorts/whistler/stone-inukshuk.webp",
+        alt: "惠斯勒山上的因努克石像與雪林",
+      },
+      {
+        src: "images/resorts/whistler/village-night-lights.webp",
+        alt: "惠斯勒村落夜色中的燈飾與山影",
+        position: "50% 65%",
+      },
+      {
+        src: "images/resorts/whistler/misty-forest-trail.webp",
+        alt: "薄霧環繞的雪道與覆雪針葉林",
       },
     ],
   },
