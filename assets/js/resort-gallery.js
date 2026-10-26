@@ -31,6 +31,13 @@
     $("#scenery-pending").hidden = photos.length > 0;
     if (resort.sceneryNote && !photos.length)
       $("#scenery-pending p").textContent = resort.sceneryNote;
+    if (resort.classificationNote) {
+      const note = document.createElement("p");
+      note.className = "small-note";
+      note.style.marginBottom = "24px";
+      note.textContent = resort.classificationNote;
+      $("#scenery-photos").before(note);
+    }
     photos.forEach((photo) => {
       const figure = document.createElement("figure");
       const link = document.createElement("a");

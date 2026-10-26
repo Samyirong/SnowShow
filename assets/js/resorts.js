@@ -786,6 +786,53 @@ window.SNOW_RESORTS = [
     years: [2019],
     lat: 36.85705982453267,
     lng: 138.15506999679596,
+    photos: [
+      {
+        src: "images/resorts/myoko-suginohara/2019-01.webp",
+        alt: "晴空下的杉之原雪原與遠山",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-02.webp",
+        alt: "杉之原纜車線旁的山谷與群峰",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-03.webp",
+        alt: "陽光穿過杉之原高聳的雪林",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-04.webp",
+        alt: "杉之原覆雪樹林與遠方雲海",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-05.webp",
+        alt: "杉之原雪道旁的老樹與谷地",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-06.webp",
+        alt: "杉之原雪場出發前的同行合照",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-07.webp",
+        alt: "杉之原山稜前的滑雪片刻",
+      },
+      {
+        src: "images/resorts/myoko-suginohara/2019-08.webp",
+        alt: "杉之原林間雪道與遠方山景（影片擷取）",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/myoko-suginohara-10s.mp4",
+        poster: "images/resorts/myoko-suginohara/2019-01.webp",
+        title: "晴空下的杉之原林間滑行",
+        kind: "video",
+        duration: 10,
+        year: 2019,
+        width: 1280,
+        height: 720,
+      },
+    ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 18,
@@ -794,6 +841,52 @@ window.SNOW_RESORTS = [
     years: [2019],
     lat: 36.85855080824717,
     lng: 138.29136600148877,
+    photos: [
+      {
+        src: "images/resorts/madarao-kogen/2019-01.webp",
+        alt: "斑尾雪坡上的冬日陽光",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-02.webp",
+        alt: "斑尾林間雪道旁的逆光",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-03.webp",
+        alt: "斑尾雪道眺望起伏的谷地",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-04.webp",
+        alt: "斑尾晴空下的林間粉雪",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-05.webp",
+        alt: "斑尾 1350 m 山頂標誌與遠山",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-06.webp",
+        alt: "斑尾山頂俯瞰層層雪山",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-07.webp",
+        alt: "斑尾山麓的黃昏與整片雪坡",
+      },
+      {
+        src: "images/resorts/madarao-kogen/2019-08.webp",
+        alt: "斑尾地標與日落時分的天空",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/madarao-kogen-10s.mp4",
+        poster: "images/resorts/madarao-kogen/2019-01.webp",
+        title: "斑尾粉雪與遠山",
+        kind: "video",
+        duration: 10,
+        year: 2019,
+        width: 1280,
+        height: 720,
+      },
+    ],
   },
   {
     id: 19,
@@ -802,6 +895,45 @@ window.SNOW_RESORTS = [
     years: [2019],
     lat: 36.8727612412066,
     lng: 138.17191845446757,
+    photos: [
+      {
+        src: "images/resorts/ikenotaira-onsen/2019-01.webp",
+        alt: "池之平雪道與覆雪樹林",
+      },
+      {
+        src: "images/resorts/ikenotaira-onsen/2019-02.webp",
+        alt: "池之平晴天的寬闊雪坡與同行雪友",
+      },
+      {
+        src: "images/resorts/ikenotaira-onsen/2019-03.webp",
+        alt: "池之平山麓的妙高地標",
+      },
+      {
+        src: "images/resorts/ikenotaira-onsen/2019-04.webp",
+        alt: "池之平入口前的滑雪合照",
+      },
+      {
+        src: "images/resorts/ikenotaira-onsen/2019-05.webp",
+        alt: "池之平雪道圖前的同行紀念",
+      },
+      {
+        src: "images/resorts/ikenotaira-onsen/2019-06.webp",
+        alt: "池之平降雪中的單板滑行",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/ikenotaira-onsen-10s.mp4",
+        poster: "images/resorts/ikenotaira-onsen/2019-01.webp",
+        title: "池之平雪原裡的同行紀念",
+        kind: "slideshow",
+        duration: 10,
+        year: 2019,
+        width: 1280,
+        height: 720,
+      },
+    ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 20,
@@ -810,6 +942,53 @@ window.SNOW_RESORTS = [
     years: [2019],
     lat: 36.98967300140755,
     lng: 138.18009903748572,
+    photos: [
+      {
+        src: "images/resorts/lotte-arai/2019-01.webp",
+        alt: "樂天 ARAI 山麓入口與覆雪群山",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-02.webp",
+        alt: "樂天 ARAI 黃色建築旁的冬日雪景",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-03.webp",
+        alt: "樂天 ARAI 纜車站旁的厚實積雪",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-04.webp",
+        alt: "樂天 ARAI 高處眺望雪原與谷地",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-05.webp",
+        alt: "樂天 ARAI 的山碗與雲霧",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-06.webp",
+        alt: "樂天 ARAI 雪林間眺望遠山",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-07.webp",
+        alt: "樂天 ARAI 午後雪坡上的滑行",
+      },
+      {
+        src: "images/resorts/lotte-arai/2019-08.webp",
+        alt: "樂天 ARAI 山麓的同行合照",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/lotte-arai-10s.mp4",
+        poster: "images/resorts/lotte-arai/2019-01.webp",
+        title: "樂天 ARAI 的午後滑行",
+        kind: "video",
+        duration: 10,
+        year: 2019,
+        width: 1280,
+        height: 720,
+      },
+    ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 21,
@@ -818,6 +997,47 @@ window.SNOW_RESORTS = [
     years: [2019],
     lat: 36.891064005510735,
     lng: 138.17671772563267,
+    photos: [
+      {
+        src: "images/resorts/akakura-onsen/2019-01.webp",
+        alt: "赤倉溫泉雪地中的ヨーデルロッヂ",
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-02.webp",
+        alt: "赤倉溫泉降雪中的雪坡與纜車",
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-03.webp",
+        alt: "赤倉溫泉街的雪夜",
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-04.webp",
+        alt: "赤倉溫泉雪道上的同行合照",
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-05.webp",
+        alt: "赤倉溫泉一帶的雪山與谷地",
+      },
+      {
+        src: "images/resorts/akakura-onsen/2019-06.webp",
+        alt: "赤倉溫泉纜車線下的雪坡（影片擷取）",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/akakura-onsen-10s.mp4",
+        poster: "images/resorts/akakura-onsen/2019-01.webp",
+        title: "赤倉溫泉纜車旁的降雪",
+        kind: "video",
+        duration: 10,
+        year: 2019,
+        width: 1280,
+        height: 720,
+      },
+    ],
+    photoLabel: "張風景與滑雪紀錄",
+    classificationNote:
+      "2019/1/28 兩座雪場都有造訪。依 Sky Cable、Yodel 設施招牌、GPS 與拍攝時段歸類；部分相鄰雪道畫面為推定位置。",
   },
   {
     id: 22,
@@ -826,6 +1046,47 @@ window.SNOW_RESORTS = [
     years: [2019],
     lat: 36.8869883272347,
     lng: 138.1777632581638,
+    photos: [
+      {
+        src: "images/resorts/akakura-kanko/2019-01.webp",
+        alt: "赤倉觀光一帶的雪林與纜車線",
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-02.webp",
+        alt: "赤倉觀光一帶遠望谷地的雪坡",
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-03.webp",
+        alt: "赤倉觀光 Sky Cable Terminal 纜車站與雪友",
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-04.webp",
+        alt: "赤倉觀光纜車站前的滑雪紀念",
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-05.webp",
+        alt: "赤倉觀光一帶的滑雪片刻",
+      },
+      {
+        src: "images/resorts/akakura-kanko/2019-06.webp",
+        alt: "赤倉觀光一帶的雪坡與同行雪友",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/akakura-kanko-10s.mp4",
+        poster: "images/resorts/akakura-kanko/2019-01.webp",
+        title: "赤倉觀光的雪道與纜車站",
+        kind: "slideshow",
+        duration: 10,
+        year: 2019,
+        width: 1280,
+        height: 720,
+      },
+    ],
+    photoLabel: "張風景與滑雪紀錄",
+    classificationNote:
+      "2019/1/28 兩座雪場都有造訪。依 Sky Cable、Yodel 設施招牌、GPS 與拍攝時段歸類；部分相鄰雪道畫面為推定位置。",
   },
   {
     id: 23,
