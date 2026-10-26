@@ -10,10 +10,12 @@
     <meta name="theme-color" content="#173e39" />
     <title>SnowShow — 把日常留在山下</title>
     <link rel="stylesheet" href="assets/css/site.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
     <script src="assets/js/resorts.js" defer></script>
     <script src="assets/js/site.js" defer></script>
+    <script src="assets/js/home.js" defer></script>
   </head>
-  <body>
+  <body class="home-page">
     <a class="skip-link" href="#main">跳到主要內容</a>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="SnowShow 首頁"
@@ -36,43 +38,39 @@
       >
     </header>
     <main id="main">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">
-            <span class="tiny-line"></span> A LIFE BETWEEN MOUNTAINS
+      <section class="home-hero" aria-labelledby="hero-title">
+        <div class="home-hero-copy">
+          <p class="eyebrow">A LIFE BETWEEN MOUNTAINS</p>
+          <h1 id="hero-title">把日常<br />留在<span>山下。</span></h1>
+          <p class="home-lead">
+            追著雪走，也找回自己的節奏。<br />從日本到加拿大，收藏值得再去一次的山。
           </p>
-          <h1>把日常<br />留在<span class="serif-word">山下。</span></h1>
-          <p class="hero-description">
-            追著雪走，也找回自己的節奏。<br />這裡收藏我的單板生活，和那些值得再去一次的山。
-          </p>
-          <div class="hero-actions">
-            <a class="button button-light" href="snowmap.html"
-              >探索雪場地圖 <span aria-hidden="true">↗</span></a
-            ><a class="text-link" href="#hobby"
-              >看看雪上日常 <span aria-hidden="true">↓</span></a
+          <div class="home-hero-actions">
+            <a class="button button-dark" href="snowmap.html">探索雪場地圖 ↗</a
+            ><a class="home-text-link" href="#journeys">翻開旅行相簿 ↓</a>
+          </div>
+          <div class="home-signature">
+            <span class="signature">Sam Chen</span
+            ><span
+              >DEVELOPER / SNOWBOARDER<br />2008 — 2026 / STILL EXPLORING</span
             >
           </div>
-          <div class="hero-signature">
-            <span class="signature">Sam Chen</span
-            ><span>DEVELOPER / SNOWBOARDER</span>
-          </div>
         </div>
-        <div class="hero-photo">
+        <figure class="home-hero-image">
           <img
-            src="assets/css/images/bg.jpg"
-            alt="夕陽照亮白雪覆蓋的山坡與樹林"
+            src="images/resorts/whistler/mountain-panorama.webp"
+            alt="惠斯勒群峰、雪谷與遠方雲海"
+            width="1600"
+            height="900"
             fetchpriority="high"
           />
-          <div class="photo-topline">
-            <span>THE MOUNTAINS ARE CALLING</span><span>01 / SNOW LIFE</span>
-          </div>
-          <div class="photo-caption">
-            <span>在每一道雪痕裡<br />留下自己的故事。</span
-            ><span class="round-arrow" aria-hidden="true">↗</span>
-          </div>
-        </div>
+          <figcaption>
+            <span>CANADA / 2026<br /><strong>Whistler Blackcomb</strong></span
+            ><a href="resort.html?id=36">惠斯勒相簿 ↗</a>
+          </figcaption>
+        </figure>
       </section>
-      <section class="stats-strip" aria-label="滑雪足跡統計">
+      <section class="home-stats home-container" aria-label="公開滑雪紀錄統計">
         <div>
           <strong data-total-resorts>36</strong><span>座雪場留下足跡</span>
         </div>
@@ -80,62 +78,203 @@
           <strong data-total-countries>4</strong><span>個國家的冬日風景</span>
         </div>
         <div>
-          <strong>2008<span class="stat-dash">—</span>2026</strong
-          ><span>一路滑向下一座山</span>
+          <strong data-home-albums>17</strong><span>本公開雪場相簿</span>
         </div>
-        <p>MORE THAN A HOBBY.<br /><b>IT'S A WAY OF LIFE.</b></p>
+        <div>
+          <strong data-home-clips>18</strong><span>段雪場短片與軌跡</span>
+        </div>
       </section>
-      <section class="section-wrap" id="hobby">
-        <div class="section-heading">
+      <section
+        class="home-container home-explore"
+        aria-label="選一種方式，開始探索"
+      >
+        <a href="snowmap.html"
+          ><span class="home-index">01 / THE MAP</span>
+          <h2>從一座山開始 <span aria-hidden="true">↗</span></h2>
+          <p>在世界地圖上，找到每一段滑雪足跡。</p>
+          <span class="home-entry-label">開啟雪場地圖</span></a
+        ><a href="resort.html"
+          ><span class="home-index">02 / THE SCENES</span>
+          <h2>讓風景帶路 <span aria-hidden="true">↗</span></h2>
+          <p>山稜、雪林與雲海，按雪場慢慢翻閱。</p>
+          <span class="home-entry-label">瀏覽全部雪場相簿</span></a
+        ><a href="video.html"
+          ><span class="home-index">03 / IN MOTION</span>
+          <h2>十秒，回到雪道 <span aria-hidden="true">↗</span></h2>
+          <p>實拍、照片剪輯與軌跡，各自標示清楚。</p>
+          <span class="home-entry-label">觀看雪上影像</span></a
+        >
+      </section>
+      <section
+        class="home-container home-section"
+        id="journeys"
+        aria-labelledby="journeys-title"
+      >
+        <div class="home-section-heading">
           <div>
-            <p class="eyebrow">01 / SNOW JOURNAL</p>
-            <h2>雪上的片刻，<br class="mobile-break" />日常裡的自由。</h2>
+            <p class="eyebrow">01 / SELECTED JOURNEYS</p>
+            <h2 id="journeys-title">下一眼，想看哪座山？</h2>
           </div>
-          <p>
-            山稜、森林與雲海，收藏每座雪場的樣子。<br />用風景記下，讓冬天的故事繼續。
+          <a class="home-text-link" href="resort.html">全部雪場相簿 ↗</a>
+        </div>
+        <div
+          class="home-filter"
+          role="group"
+          aria-label="篩選精選旅行的國家"
+          hidden
+        >
+          <button type="button" data-country="全部" aria-pressed="true">
+            全部旅行</button
+          ><button type="button" data-country="日本" aria-pressed="false">
+            日本</button
+          ><button type="button" data-country="加拿大" aria-pressed="false">
+            加拿大</button
+          ><button type="button" data-country="澳洲" aria-pressed="false">
+            澳洲
+          </button>
+          <p id="journey-status" role="status" aria-live="polite">
+            6 段精選旅行
           </p>
         </div>
-        <div class="journal-grid">
-          <a class="journal-card journal-feature" href="resort.html?id=36"
-            ><img
-              src="images/resorts/whistler/peak-to-peak.webp"
-              alt="惠斯勒雲海中的 PEAK 2 PEAK 紅色纜車"
-              loading="lazy"
-            />
-            <div class="card-overlay">
-              <span class="eyebrow">WHISTLER / CANADA</span>
-              <h3>穿越雲海，<br />看見山的另一面。</h3>
-              <span class="card-link"
-                >查看惠斯勒風景 <span aria-hidden="true">↗</span></span
-              >
+        <div class="home-journey-grid">
+          <a
+            class="home-journey"
+            href="resort.html?id=36"
+            data-journey-country="加拿大"
+            ><div class="home-journey-image">
+              <img
+                src="images/resorts/whistler/peak-to-peak.webp"
+                alt="惠斯勒雲海中的紅色纜車"
+                width="1600"
+                height="1067"
+                loading="lazy"
+              /><span>2026 / CANADA</span>
+            </div>
+            <div class="home-journey-copy">
+              <h3>惠斯勒<span aria-hidden="true">↗</span></h3>
+              <p>搭一段纜車，穿過山與雲的邊界。</p>
+              <span data-home-resort-count="36">查看雪場紀錄</span>
+            </div></a
+          ><a
+            class="home-journey"
+            href="resort.html?id=4"
+            data-journey-country="日本"
+            ><div class="home-journey-image">
+              <img
+                src="images/resorts/furano/basin-clouds.webp"
+                alt="雲層下的富良野盆地與遠方山脈"
+                width="1600"
+                height="1067"
+                loading="lazy"
+              /><span>2025 / HOKKAIDO, JAPAN</span>
+            </div>
+            <div class="home-journey-copy">
+              <h3>富良野<span aria-hidden="true">↗</span></h3>
+              <p>粉雪之外，還有讓人停下來的遼闊。</p>
+              <span data-home-resort-count="4">查看雪場紀錄</span>
+            </div></a
+          ><a
+            class="home-journey"
+            href="resort.html?id=10"
+            data-journey-country="日本"
+            ><div class="home-journey-image">
+              <img
+                src="images/resorts/naeba/gondola-slope.webp"
+                alt="苗場纜車下的雪坡與山麓建築"
+                width="1600"
+                height="1067"
+                loading="lazy"
+              /><span>2024 / NIIGATA, JAPAN</span>
+            </div>
+            <div class="home-journey-copy">
+              <h3>苗場<span aria-hidden="true">↗</span></h3>
+              <p>熟悉的雪道，每次都有不同的風景。</p>
+              <span data-home-resort-count="10">查看雪場紀錄</span>
+            </div></a
+          ><a
+            class="home-journey"
+            href="resort.html?id=5"
+            data-journey-country="澳洲"
+            ><div class="home-journey-image">
+              <img
+                src="images/resorts/mt-buller/2023-village-square.webp"
+                alt="布勒山村落廣場與雪季入口"
+                width="1600"
+                height="1067"
+                loading="lazy"
+              /><span>2023 / VICTORIA, AUSTRALIA</span>
+            </div>
+            <div class="home-journey-copy">
+              <h3>布勒山<span aria-hidden="true">↗</span></h3>
+              <p>換個半球，接著過冬天。</p>
+              <span data-home-resort-count="5">查看雪場紀錄</span>
+            </div></a
+          ><a
+            class="home-journey"
+            href="resort.html?id=7"
+            data-journey-country="日本"
+            ><div class="home-journey-image">
+              <img
+                src="images/resorts/iwappara/extra-winter-sun-panorama.webp"
+                alt="岩原晴空下的冬日群峰"
+                width="1600"
+                height="1067"
+                loading="lazy"
+              /><span>2023 / NIIGATA, JAPAN</span>
+            </div>
+            <div class="home-journey-copy">
+              <h3>岩原<span aria-hidden="true">↗</span></h3>
+              <p>把晴空和寬闊雪坡，收進記憶裡。</p>
+              <span data-home-resort-count="7">查看雪場紀錄</span>
+            </div></a
+          ><a
+            class="home-journey"
+            href="resort.html?id=14"
+            data-journey-country="日本"
+            ><div class="home-journey-image">
+              <img
+                src="images/resorts/nozawa-onsen/2020-07.webp"
+                alt="野澤溫泉山頂的全景雪山"
+                width="1600"
+                height="1067"
+                loading="lazy"
+              /><span>2020 / NAGANO, JAPAN</span>
+            </div>
+            <div class="home-journey-copy">
+              <h3>野澤溫泉<span aria-hidden="true">↗</span></h3>
+              <p>長野的雪山，值得一再回望。</p>
+              <span data-home-resort-count="14">查看雪場紀錄</span>
             </div></a
           >
-          <div class="journal-side">
-            <a class="journal-card" href="resort.html"
-              ><img
-                src="images/resorts/whistler/mountain-panorama.webp"
-                alt="惠斯勒雪谷與連綿群峰"
-                loading="lazy"
-              />
-              <div class="card-overlay">
-                <span class="eyebrow">SCENES FROM THE MOUNTAINS</span>
-                <h3>每一座山，都有自己的風景。</h3>
-                <span class="card-link"
-                  >瀏覽雪場風景 <span aria-hidden="true">↗</span></span
-                >
-              </div></a
-            ><a class="destination-note" href="resort.html?id=36"
-              ><div>
-                <p class="eyebrow">LATEST FOOTPRINT / 2026</p>
-                <h3>下一頁，加拿大。</h3>
-                <p>惠斯勒 Whistler Blackcomb<br />把足跡延伸到另一邊的山脈。</p>
-              </div>
-              <span class="round-arrow" aria-hidden="true">↗</span></a
-            >
+        </div>
+      </section>
+      <section class="home-film" aria-labelledby="film-title">
+        <div class="home-container home-film-inner">
+          <a
+            class="home-film-image"
+            href="video.html"
+            aria-label="前往雪上影像，觀看雪場短片"
+            ><img
+              src="images/resorts/furano/film-poster.webp"
+              alt="富良野藍天下的山景與雲海"
+              width="1280"
+              height="720"
+              loading="lazy"
+            /><span class="home-play" aria-hidden="true">▶</span
+            ><span class="home-film-credit">FURANO / 2025 · 現場片段</span></a
+          >
+          <div class="home-film-copy">
+            <p class="eyebrow">02 / TEN SECONDS ON THE MOUNTAIN</p>
+            <h2 id="film-title">有些風景，<br />動起來才完整。</h2>
+            <p>
+              每座雪場的一小段，把旅途留在十秒裡。<br />不必急著出發，先看一段山上的日常。
+            </p>
+            <a class="button button-light" href="video.html">觀看雪場短片 ↗</a
+            ><span class="home-film-note">點選後播放，不自動載入影片。</span>
           </div>
         </div>
       </section>
-      <section class="about-section" id="about">
+      <section class="about-section home-about" id="about">
         <div class="about-image">
           <img
             class="about-portrait"
@@ -147,7 +286,7 @@
           /><span class="image-label">OFFLINE IS MY FAVORITE MODE.</span>
         </div>
         <div class="about-copy">
-          <p class="eyebrow">02 / THE PERSON BEHIND THE BOARD</p>
+          <p class="eyebrow">03 / THE PERSON BEHIND THE BOARD</p>
           <h2>寫程式，<br />也寫自己的雪道。</h2>
           <p>
             我是 Sam
@@ -165,53 +304,45 @@
           >
         </div>
       </section>
-      <section class="section-wrap gallery-section">
-        <div class="section-heading">
+      <section
+        class="home-container home-section"
+        aria-labelledby="moments-title"
+      >
+        <div class="home-section-heading">
           <div>
-            <p class="eyebrow">03 / COLLECTED MOMENTS</p>
-            <h2>把風景帶回來。</h2>
+            <p class="eyebrow">04 / POSTCARDS FROM WINTER</p>
+            <h2 id="moments-title">把冬天的一角，帶回日常。</h2>
           </div>
-          <a class="small-note" href="resort.html?id=36"
-            >2026 惠斯勒風景實拍 · 查看相簿 ↗</a
-          >
+          <p>點開照片，讓風景大一點。</p>
         </div>
-        <div class="photo-grid">
-          <a href="images/resorts/whistler/mountain-panorama.webp" data-gallery
-            ><img
-              src="images/resorts/whistler/mountain-panorama.webp"
-              alt="惠斯勒群峰與雪谷全景"
-              loading="lazy"
-          /></a>
-          <a href="images/resorts/whistler/summit-landmark.webp" data-gallery
-            ><img
-              src="images/resorts/whistler/summit-landmark.webp"
-              alt="惠斯勒山頂雕像與遠方群峰"
-              loading="lazy"
-          /></a>
-          <a href="images/resorts/whistler/olympic-rings.webp" data-gallery
-            ><img
-              src="images/resorts/whistler/olympic-rings.webp"
-              alt="雪山前的奧運五環"
-              loading="lazy"
-          /></a>
-          <a href="images/resorts/whistler/forest-ridge.webp" data-gallery
-            ><img
-              src="images/resorts/whistler/forest-ridge.webp"
-              alt="雪道、森林與遠山"
-              loading="lazy"
-          /></a>
+        <div class="home-postcards">
           <a href="images/resorts/whistler/cloud-sea.webp" data-gallery
             ><img
               src="images/resorts/whistler/cloud-sea.webp"
               alt="雲霧環繞的惠斯勒山谷"
+              width="1600"
+              height="1067"
               loading="lazy"
-          /></a>
-          <a href="images/resorts/whistler/peak-to-peak.webp" data-gallery
+            /><span>WHISTLER / CANADA</span></a
+          ><a href="images/resorts/furano/forest-cabin-night.webp" data-gallery
             ><img
-              src="images/resorts/whistler/peak-to-peak.webp"
-              alt="雲海中的 PEAK 2 PEAK 紅色纜車"
+              src="images/resorts/furano/forest-cabin-night.webp"
+              alt="富良野冬夜，雪林木屋與門前的燈火"
+              width="1600"
+              height="1067"
               loading="lazy"
-          /></a>
+            /><span>FURANO / JAPAN</span></a
+          ><a
+            href="images/resorts/nozawa-onsen/2020-extra-valley-ridges.webp"
+            data-gallery
+            ><img
+              src="images/resorts/nozawa-onsen/2020-extra-valley-ridges.webp"
+              alt="野澤溫泉雪道遠望山谷與層疊山稜"
+              width="1600"
+              height="1067"
+              loading="lazy"
+            /><span>NOZAWA ONSEN / JAPAN</span></a
+          >
         </div>
       </section>
       <section class="contact-banner" id="contact">
