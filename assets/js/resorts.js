@@ -11,6 +11,14 @@ window.SNOW_RESORTS = [
         src: "images/resorts/asarigawa/lift-valley.webp",
         alt: "纜車線延伸向雲霧中的朝里川山谷",
       },
+      {
+        src: "images/resorts/asarigawa/chairlift-mist.webp",
+        alt: "霧中沿雪道延伸的纜車",
+      },
+      {
+        src: "images/resorts/asarigawa/cloudy-slope.webp",
+        alt: "厚雲下的寬闊雪坡",
+      },
     ],
   },
   {
