@@ -6,6 +6,12 @@ window.SNOW_RESORTS = [
     years: [2025],
     lat: 43.14368724555889,
     lng: 141.03683244099489,
+    photos: [
+      {
+        src: "images/resorts/asarigawa/lift-valley.webp",
+        alt: "纜車線延伸向雲霧中的朝里川山谷",
+      },
+    ],
   },
   {
     id: 2,
@@ -14,6 +20,20 @@ window.SNOW_RESORTS = [
     years: [2025],
     lat: 43.07237418049385,
     lng: 141.08284687004138,
+    photos: [
+      {
+        src: "images/resorts/sapporo-kokusai/resort-sign.webp",
+        alt: "札幌國際滑雪場木柱招牌與雪道",
+      },
+      {
+        src: "images/resorts/sapporo-kokusai/torii-snow-trees.webp",
+        alt: "樹冰林前的紅色鳥居",
+      },
+      {
+        src: "images/resorts/sapporo-kokusai/torii-wide.webp",
+        alt: "雪原上的紅色鳥居與遠山",
+      },
+    ],
   },
   {
     id: 3,
@@ -22,6 +42,28 @@ window.SNOW_RESORTS = [
     years: [2025],
     lat: 43.06343458675653,
     lng: 142.63133808353507,
+    photos: [
+      {
+        src: "images/resorts/hoshino-tomamu/summit-panorama.webp",
+        alt: "山頂俯瞰層疊的群峰與雪道",
+      },
+      {
+        src: "images/resorts/hoshino-tomamu/twin-towers.webp",
+        alt: "藍天下的 TOMAMU 雙塔",
+      },
+      {
+        src: "images/resorts/hoshino-tomamu/tower-view.webp",
+        alt: "從飯店窗邊望向雪場與山稜",
+      },
+      {
+        src: "images/resorts/hoshino-tomamu/resort-valley.webp",
+        alt: "俯瞰雪白的度假區與山谷",
+      },
+      {
+        src: "images/resorts/hoshino-tomamu/night-towers.webp",
+        alt: "夜色中點燈的森林與雙塔",
+      },
+    ],
   },
   {
     id: 4,
@@ -30,6 +72,32 @@ window.SNOW_RESORTS = [
     years: [2025],
     lat: 43.32511666988761,
     lng: 142.35355223326616,
+    photos: [
+      {
+        src: "images/resorts/furano/basin-clouds.webp",
+        alt: "雲層下的富良野盆地與遠方山脈",
+      },
+      {
+        src: "images/resorts/furano/lone-tree.webp",
+        alt: "山頂枯樹與遠方雪原",
+      },
+      {
+        src: "images/resorts/furano/cloud-bank.webp",
+        alt: "積雲湧起的富良野平原",
+      },
+      {
+        src: "images/resorts/furano/snow-squall.webp",
+        alt: "雪雲飄過盆地上空",
+      },
+      {
+        src: "images/resorts/furano/frosted-ridge.webp",
+        alt: "樹冰山脊與遼闊雪原",
+      },
+      {
+        src: "images/resorts/furano/open-field.webp",
+        alt: "纜車線下的寬闊雪原",
+      },
+    ],
   },
   {
     id: 5,
@@ -279,6 +347,20 @@ window.SNOW_RESORTS = [
     lat: 43.06783751567037,
     lng: 140.98962758353505,
     video: "video.html",
+    photos: [
+      {
+        src: "images/resorts/kiroro/snow-monsters.webp",
+        alt: "藍天下被厚雪覆蓋的樹冰",
+      },
+      {
+        src: "images/resorts/kiroro/powder-forest.webp",
+        alt: "粉雪起伏的樹冰森林",
+      },
+      {
+        src: "images/resorts/kiroro/forest-trail.webp",
+        alt: "穿過樹冰林的雪道",
+      },
+    ],
   },
   {
     id: 36,
