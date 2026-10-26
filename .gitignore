@@ -1,0 +1,11 @@
+# Local-only photo libraries must stay outside the published site.
+/LocalWeb/
+/local-web/
+/private-media/
+/[0-9][0-9][0-9][0-9][0-9][0-9]_*/
+.DS_Store
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
