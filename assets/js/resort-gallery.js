@@ -24,11 +24,13 @@
       resort.years.join(" · ") +
       " 滑雪足跡" +
       (photos.length
-        ? " / " + photos.length + " 張精選風景"
+        ? " / " + photos.length + " " + (resort.photoLabel || "張精選風景")
         : " / 風景照片整理中");
     $("#detail-map-link").href =
       "snowmap.html?country=" + encodeURIComponent(resort.country);
     $("#scenery-pending").hidden = photos.length > 0;
+    if (resort.sceneryNote && !photos.length)
+      $("#scenery-pending p").textContent = resort.sceneryNote;
     photos.forEach((photo) => {
       const figure = document.createElement("figure");
       const link = document.createElement("a");

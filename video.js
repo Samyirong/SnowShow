@@ -41,7 +41,12 @@
         String(++count).padStart(2, "0"),
       );
       const body = create("div");
-      const kind = clip.kind === "slideshow" ? "照片剪輯" : "現場片段";
+      const kind =
+        clip.kind === "slideshow"
+          ? "照片剪輯"
+          : clip.kind === "route"
+            ? "滑行軌跡 · 非實景"
+            : "現場片段";
       body.append(
         create(
           "p",

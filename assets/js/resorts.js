@@ -573,6 +573,26 @@ window.SNOW_RESORTS = [
         src: "images/resorts/shiga-yakebitai/2020-01.webp",
         alt: "燒額山王子飯店前的雪原與覆雪林帶",
       },
+      {
+        src: "images/resorts/shiga-yakebitai/2020-summit-forest.webp",
+        alt: "燒額山山頂覆雪針葉林（裁切避開人物）",
+      },
+      {
+        src: "images/resorts/shiga-yakebitai/2020-extra-snowy-branches.webp",
+        alt: "燒額山山頂雪林與厚實積雪（裁切避開人物）",
+      },
+      {
+        src: "images/resorts/shiga-yakebitai/2020-extra-prince-lodge-memory.webp",
+        alt: "燒額山王子飯店前的滑雪紀念",
+      },
+      {
+        src: "images/resorts/shiga-yakebitai/2020-extra-summit-ski-memory.webp",
+        alt: "燒額山 2000 m 山頂的滑雪合照",
+      },
+      {
+        src: "images/resorts/shiga-yakebitai/2020-extra-gondola-memory.webp",
+        alt: "燒額山纜車內的同行紀念（影片擷取）",
+      },
     ],
     videos: [
       {
@@ -586,6 +606,7 @@ window.SNOW_RESORTS = [
         height: 720,
       },
     ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 13,
@@ -594,24 +615,21 @@ window.SNOW_RESORTS = [
     years: [2011, 2020],
     lat: 36.76610217731015,
     lng: 138.51536447294234,
-    photos: [
-      {
-        src: "images/resorts/okushiga/2020-02.webp",
-        alt: "奧志賀山頂覆滿新雪的針葉林",
-      },
-    ],
+    photos: [],
     videos: [
       {
-        src: "video/resorts/okushiga-10s.mp4",
-        poster: "images/resorts/okushiga/2020-02.webp",
-        title: "奧志賀山頂的覆雪森林",
-        kind: "slideshow",
+        src: "video/resorts/okushiga-route-10s.mp4",
+        poster: "images/resorts/okushiga/route-poster.webp",
+        title: "2020 奧志賀滑行路線 · Relive 軌跡動畫，非現場影片",
+        kind: "route",
         duration: 10,
         year: 2020,
         width: 1280,
         height: 720,
       },
     ],
+    sceneryNote:
+      "已保留 2020 奧志賀滑行軌跡動畫。原山頂雪林經核對位於燒額山側，已移回正確雪場；目前沒有可確認的奧志賀實景照片，待補原始素材。",
   },
   {
     id: 14,
@@ -645,6 +663,14 @@ window.SNOW_RESORTS = [
         src: "images/resorts/nozawa-onsen/2020-08.webp",
         alt: "野澤林緣雪道與遠方山景",
       },
+      {
+        src: "images/resorts/nozawa-onsen/2020-extra-clouds-tower.webp",
+        alt: "野澤溫泉山頂的雲層與雪林",
+      },
+      {
+        src: "images/resorts/nozawa-onsen/2020-extra-valley-ridges.webp",
+        alt: "野澤溫泉雪道遠望山谷與層疊山稜",
+      },
     ],
     videos: [
       {
@@ -675,6 +701,22 @@ window.SNOW_RESORTS = [
         src: "images/resorts/togakushi/2020-10.webp",
         alt: "戶隱雪道與雪林間的滑雪設施（影片擷取）",
       },
+      {
+        src: "images/resorts/togakushi/2020-extra-base-slope.webp",
+        alt: "戶隱山麓建築與林間雪道",
+      },
+      {
+        src: "images/resorts/togakushi/2020-extra-base-ski-memory.webp",
+        alt: "戶隱雪場山麓的滑雪紀念",
+      },
+      {
+        src: "images/resorts/togakushi/2020-extra-snowboard-approach.webp",
+        alt: "戶隱雪道的單板滑行（影片擷取）",
+      },
+      {
+        src: "images/resorts/togakushi/2020-extra-skiing-passage.webp",
+        alt: "戶隱雪道旁的滑行片刻（影片擷取）",
+      },
     ],
     videos: [
       {
@@ -688,6 +730,7 @@ window.SNOW_RESORTS = [
         height: 720,
       },
     ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 16,
@@ -700,6 +743,26 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/sugadaira-kogen/2020-11.webp",
         alt: "菅平高原晴天下的起伏雪山",
+      },
+      {
+        src: "images/resorts/sugadaira-kogen/2020-extra-rime-trees.webp",
+        alt: "菅平高原的霧淞與山頂雪原（裁切避開人物）",
+      },
+      {
+        src: "images/resorts/sugadaira-kogen/2020-extra-grey-skier.webp",
+        alt: "菅平高原雪原與滑雪紀念",
+      },
+      {
+        src: "images/resorts/sugadaira-kogen/2020-extra-snowboard-summit.webp",
+        alt: "菅平高原霧淞旁的單板紀念",
+      },
+      {
+        src: "images/resorts/sugadaira-kogen/2020-extra-blue-skier.webp",
+        alt: "菅平高原山頂的雪景與滑雪紀念",
+      },
+      {
+        src: "images/resorts/sugadaira-kogen/2020-extra-summit-group.webp",
+        alt: "菅平高原奧達沃斯雪場的同行合照",
       },
     ],
     videos: [
@@ -714,6 +777,7 @@ window.SNOW_RESORTS = [
         height: 720,
       },
     ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 17,
