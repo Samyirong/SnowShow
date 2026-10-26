@@ -152,8 +152,24 @@ window.SNOW_RESORTS = [
     name: "Mt Buller布勒山",
     country: "澳洲",
     years: [2023],
-    lat: -36.966069339284346,
-    lng: 146.42795721709373,
+    // Village location checked against https://www.mtbuller.com.au/winter/maps
+    lat: -37.1465655,
+    lng: 146.4506354,
+    photos: [
+      {
+        src: "images/resorts/mt-buller/2023-village-square.webp",
+        alt: "2023 年布勒山村落廣場與雪季入口",
+      },
+      {
+        src: "images/resorts/mt-buller/2023-tree-lined-slope.webp",
+        alt: "2023 年布勒山纜車下的林間雪坡",
+      },
+      {
+        src: "images/resorts/mt-buller/2023-chairlift-in-fog.webp",
+        alt: "2023 年布勒山霧中的纜車與雪林",
+        position: "50% 10%",
+      },
+    ],
   },
   {
     id: 6,
@@ -166,6 +182,18 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/maiko/mountain-bowl.webp",
         alt: "舞子雪坡與層層環繞的雪山",
+      },
+      {
+        src: "images/resorts/maiko/2023-snowy-trees.webp",
+        alt: "2023 年舞子雪場山麓覆雪的樹林",
+      },
+      {
+        src: "images/resorts/maiko/2023-cloudy-snow-ridges.webp",
+        alt: "2023 年舞子雲霧下起伏的雪道與山稜",
+      },
+      {
+        src: "images/resorts/maiko/2023-misty-valley.webp",
+        alt: "2023 年舞子雪坡望向雲霧中的山谷",
       },
     ],
   },
@@ -181,6 +209,14 @@ window.SNOW_RESORTS = [
         src: "images/resorts/iwappara/misty-snow-slopes.webp",
         alt: "薄霧中的岩原寬闊雪坡與纜車線",
         position: "50% 45%",
+      },
+      {
+        src: "images/resorts/iwappara/2023-sunny-base.webp",
+        alt: "2023 年岩原晴天的山麓建築與雪景",
+      },
+      {
+        src: "images/resorts/iwappara/2023-sunlit-valley.webp",
+        alt: "2023 年岩原雪坡上的冬日陽光與谷地全景",
       },
     ],
   },
@@ -204,6 +240,10 @@ window.SNOW_RESORTS = [
         src: "images/resorts/ishiuchi-maruyama/snow-terrace.webp",
         alt: "石打丸山雪地露台與遠山",
       },
+      {
+        src: "images/resorts/ishiuchi-maruyama/2023-lift-valley.webp",
+        alt: "2023 年石打丸山纜車旁開闊的雪山谷地",
+      },
     ],
   },
   {
@@ -225,6 +265,10 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/joetsu-kokusai/distant-peaks.webp",
         alt: "上越國際望向遠方綿延雪峰",
+      },
+      {
+        src: "images/resorts/joetsu-kokusai/2023-fresh-snow-lift.webp",
+        alt: "2023 年上越國際晴空下的纜車與新雪森林",
       },
     ],
   },
@@ -249,6 +293,12 @@ window.SNOW_RESORTS = [
     years: [2010, 2012, 2015, 2023, 2024],
     lat: 36.85998971926629,
     lng: 138.72646911028997,
+    photos: [
+      {
+        src: "images/resorts/kagura/2023-snowy-chalet.webp",
+        alt: "2023 年神樂雪場積雪中的木屋",
+      },
+    ],
   },
   {
     id: 12,
