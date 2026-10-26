@@ -38,6 +38,7 @@
       image.src = photo.src;
       image.alt = photo.alt;
       image.loading = "lazy";
+      if (photo.position) image.style.objectPosition = photo.position;
       const caption = document.createElement("figcaption");
       caption.textContent = photo.alt;
       link.append(image);

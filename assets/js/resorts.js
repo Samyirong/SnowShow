@@ -368,6 +368,23 @@ window.SNOW_RESORTS = [
         src: "images/resorts/kiroro/forest-trail.webp",
         alt: "穿過樹冰林的雪道",
       },
+      {
+        src: "images/resorts/kiroro/blue-sky-ridge.webp",
+        alt: "藍天白雲下的雪道與遠方群山",
+      },
+      {
+        src: "images/resorts/kiroro/snow-wall.webp",
+        alt: "深雪堆成的雪牆與遠方山稜",
+      },
+      {
+        src: "images/resorts/kiroro/lift-valley.webp",
+        alt: "從纜車站俯瞰雲層下的山谷",
+        position: "center 80%",
+      },
+      {
+        src: "images/resorts/kiroro/powder-tree.webp",
+        alt: "藍天下的樹冰與起伏的粉雪",
+      },
     ],
   },
   {
