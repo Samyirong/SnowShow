@@ -499,6 +499,38 @@ window.SNOW_RESORTS = [
         src: "images/resorts/naeba/extra-base-lift-snowfield.webp",
         alt: "苗場山麓的纜車與雪原（影片擷取）",
       },
+      {
+        src: "images/resorts/naeba/2015-01.webp",
+        alt: "2015 年苗場：晴空下的雪道與群山",
+      },
+      {
+        src: "images/resorts/naeba/2015-02.webp",
+        alt: "2015 年苗場：王子飯店前的冬日雪景",
+      },
+      {
+        src: "images/resorts/naeba/2015-03.webp",
+        alt: "2015 年苗場：藍天下的雪場路線圖",
+      },
+      {
+        src: "images/resorts/naeba/2015-04.webp",
+        alt: "2015 年苗場：從苗場出發的 Dragondola 雪谷風景",
+      },
+      {
+        src: "images/resorts/naeba/2015-05.webp",
+        alt: "2015 年苗場：從纜車眺望雪道與谷地",
+      },
+      {
+        src: "images/resorts/naeba/2015-06.webp",
+        alt: "2015 年苗場：雪道岔口的彩色指標",
+      },
+      {
+        src: "images/resorts/naeba/2015-07.webp",
+        alt: "2015 年苗場：樹林間的粉雪與滑行痕跡",
+      },
+      {
+        src: "images/resorts/naeba/2015-08.webp",
+        alt: "2015 年苗場：雪場山麓的王子飯店",
+      },
     ],
     videos: [
       {
@@ -511,7 +543,18 @@ window.SNOW_RESORTS = [
         width: 1280,
         height: 720,
       },
+      {
+        src: "video/resorts/naeba-2015-10s.mp4",
+        poster: "images/resorts/naeba/2015-01.webp",
+        title: "苗場雪道與單板滑行的一段冬日",
+        kind: "video",
+        duration: 10,
+        year: 2015,
+        width: 1280,
+        height: 720,
+      },
     ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 11,
@@ -546,6 +589,34 @@ window.SNOW_RESORTS = [
         alt: "神樂纜車線下的雪原與山屋",
         position: "50% 40%",
       },
+      {
+        src: "images/resorts/kagura/2015-01.webp",
+        alt: "2015 年神樂：山稜前的滑雪紀念",
+      },
+      {
+        src: "images/resorts/kagura/2015-02.webp",
+        alt: "2015 年神樂：藍天下的雪坡與纜車",
+      },
+      {
+        src: "images/resorts/kagura/2015-03.webp",
+        alt: "2015 年神樂：雪地裡的和田小屋",
+      },
+      {
+        src: "images/resorts/kagura/2015-04.webp",
+        alt: "2015 年神樂：かぐら區入口與寬闊雪道",
+      },
+      {
+        src: "images/resorts/kagura/2015-05.webp",
+        alt: "2015 年神樂：白樺雪林間的一段滑行",
+      },
+      {
+        src: "images/resorts/kagura/2015-06.webp",
+        alt: "2015 年神樂：和田小屋外的同行紀念",
+      },
+      {
+        src: "images/resorts/kagura/2015-07.webp",
+        alt: "2015 年神樂：纜車線旁的滑雪片刻",
+      },
     ],
     videos: [
       {
@@ -558,7 +629,18 @@ window.SNOW_RESORTS = [
         width: 1280,
         height: 720,
       },
+      {
+        src: "video/resorts/kagura-2015-10s.mp4",
+        poster: "images/resorts/kagura/2015-01.webp",
+        title: "神樂的晴空、雪山與林間旅途",
+        kind: "slideshow",
+        duration: 10,
+        year: 2015,
+        width: 1280,
+        height: 720,
+      },
     ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 12,
@@ -1602,6 +1684,38 @@ window.SNOW_RESORTS = [
         src: "images/resorts/niseko/2016-08.webp",
         alt: "二世谷雪坡與同行雪友",
       },
+      {
+        src: "images/resorts/niseko/2015-01.webp",
+        alt: "2015 年二世谷：晴空下的羊蹄山",
+      },
+      {
+        src: "images/resorts/niseko/2015-02.webp",
+        alt: "2015 年二世谷：夕陽染亮羊蹄山頂",
+      },
+      {
+        src: "images/resorts/niseko/2015-03.webp",
+        alt: "2015 年二世谷：雲層下的雪道與谷地",
+      },
+      {
+        src: "images/resorts/niseko/2015-04.webp",
+        alt: "2015 年二世谷：穿越雪林的紅色纜車",
+      },
+      {
+        src: "images/resorts/niseko/2015-05.webp",
+        alt: "2015 年二世谷：Niseko Hirafu 纜車站的滑雪紀念",
+      },
+      {
+        src: "images/resorts/niseko/2015-06.webp",
+        alt: "2015 年二世谷：空中纜車與山麓全景",
+      },
+      {
+        src: "images/resorts/niseko/2015-07.webp",
+        alt: "2015 年二世谷：陽光與雪林間的光影",
+      },
+      {
+        src: "images/resorts/niseko/2015-08.webp",
+        alt: "2015 年二世谷：夕照羊蹄山前的一段滑行",
+      },
     ],
     videos: [
       {
@@ -1611,6 +1725,16 @@ window.SNOW_RESORTS = [
         kind: "video",
         duration: 10,
         year: 2016,
+        width: 1280,
+        height: 720,
+      },
+      {
+        src: "video/resorts/niseko-2015-10s.mp4",
+        poster: "images/resorts/niseko/2015-01.webp",
+        title: "從二世谷纜車眺望冬日羊蹄山",
+        kind: "video",
+        duration: 10,
+        year: 2015,
         width: 1280,
         height: 720,
       },
@@ -1624,6 +1748,53 @@ window.SNOW_RESORTS = [
     years: [2014],
     lat: 40.0023556199139,
     lng: 140.97092711867555,
+    photos: [
+      {
+        src: "images/resorts/appi-kogen/2014-01.webp",
+        alt: "2014 年安比高原：從雪道遠望山麓與田野",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-02.webp",
+        alt: "2014 年安比高原：陽光穿透雪霧與針葉林",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-03.webp",
+        alt: "2014 年安比高原：藍天下的雪塑與遠山",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-04.webp",
+        alt: "2014 年安比高原：林間雪道與寬闊山景",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-05.webp",
+        alt: "2014 年安比高原：APPI 黃色纜車",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-06.webp",
+        alt: "2014 年安比高原：入夜後的雪地與燈光",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-07.webp",
+        alt: "2014 年安比高原：風雪中的雪道與樹林",
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-08.webp",
+        alt: "2014 年安比高原：雪場招牌前的滑雪紀念",
+      },
+    ],
+    videos: [
+      {
+        src: "video/resorts/appi-kogen-2014-10s.mp4",
+        poster: "images/resorts/appi-kogen/2014-01.webp",
+        title: "安比高原風雪中的林間雪道",
+        kind: "video",
+        duration: 10,
+        year: 2014,
+        width: 1280,
+        height: 720,
+      },
+    ],
+    photoLabel: "張風景與滑雪紀錄",
   },
   {
     id: 34,
