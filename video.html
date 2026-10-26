@@ -1,29 +1,120 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-</head>
-
-<body>
-    <nav id="nav">
-        <a href="index.html" class="icon solid fa-home"><span>Home</span></a>
-    </nav><br>
-
-
-    <video id="myVideo" width="320" height="240" poster="video/myvideo.jpg" controls>
-    </video><br>
-
-    <video id="myVideo1" width="320" height="240" poster="video/myvideo1.JPG" controls>
-    </video><br>
-
-    <script src="//unpkg.com/jquery"></script>
-    <script src="video.js"></script>
-</body>
-
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sam Chen 的雪上影像，重溫單板滑雪的每一段滑行。"
+    />
+    <meta name="theme-color" content="#173e39" />
+    <title>雪上影像 — SnowShow</title>
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script src="assets/js/site.js" defer></script>
+    <script src="video.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="SnowShow 首頁"
+        ><span class="brand-mark" aria-hidden="true">↟</span> SNOWSHOW<span
+          class="brand-dot"
+          >.</span
+        ></a
+      >
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="index.html">首頁</a><a href="snowmap.html">雪場地圖</a
+        ><a href="video.html" aria-current="page">雪上影像</a
+        ><a href="index.html#about">關於我</a>
+      </nav>
+      <a
+        class="header-social"
+        href="https://www.instagram.com/yirong310/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Instagram ↗</a
+      >
+    </header>
+    <main id="main" class="video-main">
+      <div class="page-intro">
+        <p class="eyebrow">SNOW IN MOTION / FILM COLLECTION</p>
+        <h1>讓山上的風，<br />再吹一次。</h1>
+        <p>
+          照片留住瞬間，影像留下速度。<br />重播那些在雪道上，忘記時間的時刻。
+        </p>
+      </div>
+      <div class="video-grid">
+        <article class="film-card">
+          <div class="film-player">
+            <video
+              id="myVideo"
+              controls
+              playsinline
+              preload="none"
+              poster="video/myvideo.jpg"
+              aria-label="雪上滑行影像一"
+            >
+              <source src="video/video.mp4" type="video/mp4" />
+              你的瀏覽器不支援影片播放。
+            </video>
+          </div>
+          <div class="film-meta">
+            <span class="film-number">01</span>
+            <div>
+              <p class="eyebrow">ON THE SLOPES</p>
+              <h2>把自由，交給雪道。</h2>
+              <p>跟著鏡頭，重溫一段滑行。</p>
+            </div>
+          </div>
+          <p class="video-error" hidden>
+            影片暫時無法載入，請稍後再試，或<a href="video/video.mp4"
+              >直接開啟影片</a
+            >。
+          </p>
+        </article>
+        <article class="film-card">
+          <div class="film-player">
+            <video
+              id="myVideo1"
+              controls
+              playsinline
+              preload="none"
+              poster="video/myvideo1.JPG"
+              aria-label="雪上滑行影像二"
+            >
+              <source src="video/video1.mp4" type="video/mp4" />
+              你的瀏覽器不支援影片播放。
+            </video>
+          </div>
+          <div class="film-meta">
+            <span class="film-number">02</span>
+            <div>
+              <p class="eyebrow">ONE MORE RUN</p>
+              <h2>再滑一趟，就好。</h2>
+              <p>總有一段路，值得再看一次。</p>
+            </div>
+          </div>
+          <p class="video-error" hidden>
+            影片暫時無法載入，請稍後再試，或<a href="video/video1.mp4"
+              >直接開啟影片</a
+            >。
+          </p>
+        </article>
+      </div>
+      <a class="map-invitation" href="snowmap.html"
+        ><div>
+          <p class="eyebrow">THE JOURNEY CONTINUES</p>
+          <h2>每一段影像，都有一座山。</h2>
+          <p>打開地圖，看看滑過的地方。</p>
+        </div>
+        <span class="round-arrow" aria-hidden="true">↗</span></a
+      >
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="index.html">SNOWSHOW.</a
+      ><span
+        >© <span data-year>2026</span> Sam Chen · Made for the mountains.</span
+      ><a href="snowmap.html">探索雪場地圖 ↗</a>
+    </footer>
+  </body>
 </html>

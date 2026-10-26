@@ -1,28 +1,12 @@
-$(function () { 
-    $("#myVideo").attr("src", "video/video.mp4"); 
-    $("#myVideo1").attr("src", "video/video1.mp4"); 
-    $("#playBtn").on("click", function () { 
-        if ($("#myVideo")[0].paused) { 
-            $("#myVideo")[0].play(); 
-            $("#playBtn").text("Pause"); 
-        } else { 
-            $("#myVideo")[0].pause(); 
-            $("#playBtn").text("Play"); 
-        } 
-    }); 
-    $("#fullBtn").on("click", function () { 
-        $("#myVideo")[0].webkitEnterFullscreen(); 
-    }); 
-    $("#playBtn1").on("click", function () { 
-        if ($("#myVideo1")[0].paused) { 
-            $("#myVideo1")[0].play(); 
-            $("#playBtn1").text("Pause"); 
-        } else { 
-            $("#myVideo1")[0].pause(); 
-            $("#playBtn1").text("Play"); 
-        } 
-    }); 
-    $("#fullBtn1").on("click", function () { 
-        $("#myVideo1")[0].webkitEnterFullscreen(); 
-    }); 
+document.querySelectorAll("video").forEach((video) => {
+  video.addEventListener("play", () => {
+    document.querySelectorAll("video").forEach((other) => {
+      if (other !== video) other.pause();
+    });
+  });
+  const showError = () => {
+    video.closest(".film-card").querySelector(".video-error").hidden = false;
+  };
+  video.addEventListener("error", showError);
+  video.querySelector("source").addEventListener("error", showError);
 });
