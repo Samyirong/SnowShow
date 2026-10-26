@@ -112,7 +112,11 @@
       link.append(body);
       gallery.append(link);
     });
-    const ready = filtered.filter((resort) => resort.photos?.length).length;
+    const ready = new Set(
+      filtered
+        .filter((resort) => resort.photos?.length)
+        .map((resort) => resort.galleryGroup || resort.id),
+    ).size;
     $("#scenery-count").textContent =
       filtered.length + " 座雪場 · " + ready + " 本風景相簿";
     $("#catalog-empty").hidden = filtered.length > 0;

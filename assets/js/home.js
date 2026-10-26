@@ -7,11 +7,15 @@
   if (resorts.length) {
     setCount(
       "[data-home-albums]",
-      resorts.filter((r) => r.photos?.length).length,
+      new Set(
+        resorts
+          .filter((r) => r.photos?.length)
+          .map((r) => r.galleryGroup || r.id),
+      ).size,
     );
     setCount(
       "[data-home-clips]",
-      resorts.reduce((sum, r) => sum + (r.videos?.length || 0), 0),
+      new Set(resorts.flatMap((r) => (r.videos || []).map((v) => v.src))).size,
     );
     document.querySelectorAll("[data-home-resort-count]").forEach((el) => {
       const resort = resorts.find(

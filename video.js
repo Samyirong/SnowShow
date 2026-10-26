@@ -14,8 +14,12 @@
     return element;
   };
   let count = 0;
+  const shownSources = new Set();
   selected.forEach((resort) => {
     (resort.videos || []).forEach((clip) => {
+      if (collection && shownSources.has(clip.src)) return;
+      shownSources.add(clip.src);
+      const displayName = clip.sharedTitle || resort.name;
       const card = create("article", "film-card resort-film-card");
       card.dataset.resortId = resort.id;
       const player = create("div", "film-player");
@@ -25,7 +29,7 @@
       video.preload = "none";
       video.muted = true;
       video.poster = clip.poster;
-      video.setAttribute("aria-label", resort.name + " · " + clip.title);
+      video.setAttribute("aria-label", displayName + " · " + clip.title);
       const source = create("source");
       source.src = clip.src;
       source.type = "video/mp4";
@@ -55,7 +59,7 @@
         ),
       );
       body.append(
-        create(collection ? "h2" : "h3", "film-resort-title", resort.name),
+        create(collection ? "h2" : "h3", "film-resort-title", displayName),
       );
       body.append(create("p", "film-description", clip.title));
       const link = create("a", "small-note film-album-link", "查看雪場風景 ↗");
