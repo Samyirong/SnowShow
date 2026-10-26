@@ -284,6 +284,10 @@ window.SNOW_RESORTS = [
         src: "images/resorts/naeba/gondola-slope.webp",
         alt: "苗場纜車下的雪坡與山麓建築",
       },
+      {
+        src: "images/resorts/naeba/2023-cloudy-peaks.webp",
+        alt: "2023 年苗場高處的雪峰、雲霧與纜車",
+      },
     ],
   },
   {
