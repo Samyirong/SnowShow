@@ -19,6 +19,18 @@ window.SNOW_RESORTS = [
         src: "images/resorts/asarigawa/cloudy-slope.webp",
         alt: "厚雲下的寬闊雪坡",
       },
+      {
+        src: "images/resorts/asarigawa/extra-snowfall-forest.webp",
+        alt: "降雪中的朝里川林緣與雪坡（影片擷取）",
+      },
+      {
+        src: "images/resorts/asarigawa/extra-powder-field.webp",
+        alt: "朝里川雪道旁的厚實積雪（影片擷取）",
+      },
+      {
+        src: "images/resorts/asarigawa/extra-snowy-path-trees.webp",
+        alt: "朝里川雪道旁的深厚積雪（影片擷取）",
+      },
     ],
   },
   {
@@ -40,6 +52,21 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/sapporo-kokusai/torii-wide.webp",
         alt: "雪原上的紅色鳥居與遠山",
+      },
+      {
+        src: "images/resorts/sapporo-kokusai/extra-entrance-tower.webp",
+        alt: "札幌國際入口的木造鐘塔與雪地",
+        position: "50% 30%",
+      },
+      {
+        src: "images/resorts/sapporo-kokusai/extra-snow-dome.webp",
+        alt: "札幌國際雪場覆雪的圓頂小屋",
+        position: "50% 60%",
+      },
+      {
+        src: "images/resorts/sapporo-kokusai/extra-torii-clouds.webp",
+        alt: "札幌國際雪原上的鳥居與雲層",
+        position: "50% 65%",
       },
     ],
   },
@@ -70,6 +97,11 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/hoshino-tomamu/night-towers.webp",
         alt: "夜色中點燈的森林與雙塔",
+      },
+      {
+        src: "images/resorts/hoshino-tomamu/extra-night-walkway.webp",
+        alt: "星野 TOMAMU 冬夜的木造步道",
+        position: "50% 58%",
       },
     ],
   },
@@ -169,6 +201,18 @@ window.SNOW_RESORTS = [
         alt: "2023 年布勒山霧中的纜車與雪林",
         position: "50% 10%",
       },
+      {
+        src: "images/resorts/mt-buller/extra-village-from-lift.webp",
+        alt: "布勒山從纜車望向村落與雪道（影片擷取）",
+      },
+      {
+        src: "images/resorts/mt-buller/extra-lift-base-buildings.webp",
+        alt: "布勒山纜車線旁的山麓建築（影片擷取）",
+      },
+      {
+        src: "images/resorts/mt-buller/extra-foggy-tree-run.webp",
+        alt: "布勒山薄霧中的雪坡與林帶（影片擷取）",
+      },
     ],
   },
   {
@@ -195,6 +239,15 @@ window.SNOW_RESORTS = [
         src: "images/resorts/maiko/2023-misty-valley.webp",
         alt: "2023 年舞子雪坡望向雲霧中的山谷",
       },
+      {
+        src: "images/resorts/maiko/extra-terrace-mountains.webp",
+        alt: "舞子露臺上眺望連綿雪山",
+        position: "50% 15%",
+      },
+      {
+        src: "images/resorts/maiko/extra-winter-base-scene.webp",
+        alt: "舞子山麓的冬日雪場景象",
+      },
     ],
   },
   {
@@ -217,6 +270,18 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/iwappara/2023-sunlit-valley.webp",
         alt: "2023 年岩原雪坡上的冬日陽光與谷地全景",
+      },
+      {
+        src: "images/resorts/iwappara/extra-winter-sun-panorama.webp",
+        alt: "岩原晴空下的冬日群峰",
+      },
+      {
+        src: "images/resorts/iwappara/extra-blue-sky-snowfield.webp",
+        alt: "岩原藍天下的寬闊雪原（影片擷取）",
+      },
+      {
+        src: "images/resorts/iwappara/extra-slope-side-lodge.webp",
+        alt: "岩原雪道旁的山屋與晴空（影片擷取）",
       },
     ],
   },
@@ -244,6 +309,15 @@ window.SNOW_RESORTS = [
         src: "images/resorts/ishiuchi-maruyama/2023-lift-valley.webp",
         alt: "2023 年石打丸山纜車旁開闊的雪山谷地",
       },
+      {
+        src: "images/resorts/ishiuchi-maruyama/extra-ishiuchi-landmark.webp",
+        alt: "石打丸山雪林中的 ISHIUCHI 地標",
+        position: "50% 50%",
+      },
+      {
+        src: "images/resorts/ishiuchi-maruyama/extra-layered-snow-peaks.webp",
+        alt: "石打丸山眺望層層起伏的雪峰",
+      },
     ],
   },
   {
@@ -270,6 +344,16 @@ window.SNOW_RESORTS = [
         src: "images/resorts/joetsu-kokusai/2023-fresh-snow-lift.webp",
         alt: "2023 年上越國際晴空下的纜車與新雪森林",
       },
+      {
+        src: "images/resorts/joetsu-kokusai/extra-sunny-village-lodges.webp",
+        alt: "上越國際晴空下的山麓木屋",
+        position: "50% 15%",
+      },
+      {
+        src: "images/resorts/joetsu-kokusai/extra-chairlift-blue-slope.webp",
+        alt: "上越國際纜車線旁的白色山坡",
+        position: "50% 60%",
+      },
     ],
   },
   {
@@ -288,6 +372,26 @@ window.SNOW_RESORTS = [
         src: "images/resorts/naeba/2023-cloudy-peaks.webp",
         alt: "2023 年苗場高處的雪峰、雲霧與纜車",
       },
+      {
+        src: "images/resorts/naeba/extra-clouds-chairlift-slope.webp",
+        alt: "苗場雲影與纜車下的寬闊雪坡（影片擷取）",
+      },
+      {
+        src: "images/resorts/naeba/extra-prince-hotel-snow.webp",
+        alt: "苗場王子飯店前的冬日雪景（影片擷取）",
+      },
+      {
+        src: "images/resorts/naeba/extra-forest-valley-trail.webp",
+        alt: "苗場雪道望向林帶與霧中山谷（影片擷取）",
+      },
+      {
+        src: "images/resorts/naeba/extra-quiet-woodland-trail.webp",
+        alt: "苗場落葉雪林間的靜謐雪道（影片擷取）",
+      },
+      {
+        src: "images/resorts/naeba/extra-base-lift-snowfield.webp",
+        alt: "苗場山麓的纜車與雪原（影片擷取）",
+      },
     ],
   },
   {
@@ -301,6 +405,27 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/kagura/2023-snowy-chalet.webp",
         alt: "2023 年神樂雪場積雪中的木屋",
+      },
+      {
+        src: "images/resorts/kagura/extra-chalet-front-snow.webp",
+        alt: "神樂雪場木屋正面的積雪風景",
+      },
+      {
+        src: "images/resorts/kagura/extra-chalet-wide-snowfield.webp",
+        alt: "神樂雪原與木屋的寬景",
+      },
+      {
+        src: "images/resorts/kagura/extra-chalet-gable.webp",
+        alt: "神樂雪場木屋的屋頂與雪地",
+      },
+      {
+        src: "images/resorts/kagura/extra-chalet-forest-edge.webp",
+        alt: "神樂林緣雪地裡的木屋",
+      },
+      {
+        src: "images/resorts/kagura/extra-snowfield-lift-lines.webp",
+        alt: "神樂纜車線下的雪原與山屋",
+        position: "50% 40%",
       },
     ],
   },
