@@ -176,6 +176,13 @@ window.SNOW_RESORTS = [
     years: [2023, 2024],
     lat: 36.93829187682247,
     lng: 138.84098915021528,
+    photos: [
+      {
+        src: "images/resorts/iwappara/misty-snow-slopes.webp",
+        alt: "薄霧中的岩原寬闊雪坡與纜車線",
+        position: "50% 45%",
+      },
+    ],
   },
   {
     id: 8,
