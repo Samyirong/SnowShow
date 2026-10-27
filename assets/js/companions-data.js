@@ -18,11 +18,11 @@ window.SNOW_COMPANIONS = {
       "photos": [
         {
           "id": "2014-appi",
-          "alt": "安比高原雪山前，四位夥伴的滑雪合照",
-          "caption": "安比高原 · 山麓的同行紀念",
-          "src": "images/companions/2014-appi.webp",
-          "width": 800,
-          "height": 600
+          "alt": "安比高原藍天雪山前，夥伴們與雪板一起合照",
+          "caption": "安比高原 · 藍天與雪山前的同行紀念",
+          "src": "images/companions/2014-img_1048.webp",
+          "width": 600,
+          "height": 800
         }
       ]
     },
@@ -47,9 +47,9 @@ window.SNOW_COMPANIONS = {
         },
         {
           "id": "2015-niseko",
-          "alt": "二世谷開闊雪道與樹林前，四位夥伴舉手合照",
-          "caption": "二世谷 · 在雪道前一起舉手留念",
-          "src": "images/companions/2015-niseko-slope.webp",
+          "alt": "二世谷雪地上，四位夥伴迎著夕陽擺出姿勢的剪影合照",
+          "caption": "二世谷 · 把身影留在雪地夕陽裡",
+          "src": "images/companions/2015-img_1312.webp",
           "width": 1280,
           "height": 960
         }
@@ -106,18 +106,18 @@ window.SNOW_COMPANIONS = {
       "year": 2019,
       "place": "日本 · 妙高",
       "title": "集合，拍一張再出發。",
-      "text": "雪場山麓的一張合照，把妙高的一段雪季留了下來。裝備、雪地，還有鏡頭前的我們。",
+      "text": "斑尾高原的牌樓下，並肩留下五個人的雪地合照。裝備、雪山，還有鏡頭前的我們。",
       "resorts": [
-        17
+        18
       ],
       "photos": [
         {
           "id": "2019-myoko",
-          "alt": "妙高杉之原山麓，四位夥伴穿著滑雪裝備合照",
-          "caption": "妙高 · 杉之原山麓",
-          "src": "images/companions/2019-myoko.webp",
-          "width": 1400,
-          "height": 681
+          "alt": "斑尾高原牌樓下，五位夥伴並肩站在雪地合照",
+          "caption": "妙高行程 · 斑尾高原牌樓前",
+          "src": "images/companions/2019-20190127_171000.webp",
+          "width": 1600,
+          "height": 778
         }
       ]
     },
@@ -143,19 +143,19 @@ window.SNOW_COMPANIONS = {
     {
       "year": 2023,
       "place": "日本 · 越後湯澤",
-      "title": "靠近一點，讓大家都入鏡。",
-      "text": "把彼此框進同一個畫面，山上的片刻就這樣被帶了回來。這一頁，留給近距離的合照。",
+      "title": "讓雪山，也一起入鏡。",
+      "text": "在開闊的雪坡上，對著鏡頭一起舉起手。這一頁，把身邊的夥伴和遠方的雪山一起留下。",
       "resorts": [
         6
       ],
       "photos": [
         {
           "id": "2023-yuzawa",
-          "alt": "舞子行程中，四位夥伴靠在一起的近距離合照",
-          "caption": "越後湯澤 · 舞子行程中的合照",
-          "src": "images/companions/2023-yuzawa.webp",
-          "width": 1400,
-          "height": 788
+          "alt": "越後湯澤旅途中，夥伴們在開闊雪坡上舉手合照",
+          "caption": "越後湯澤 · 一起向雪山舉手",
+          "src": "images/companions/2023-1674910258622_original.webp",
+          "width": 1200,
+          "height": 1600
         }
       ]
     },
@@ -163,18 +163,27 @@ window.SNOW_COMPANIONS = {
       "year": 2024,
       "place": "日本 · 越後湯澤",
       "title": "再回來，合照又多一張。",
-      "text": "換一個雪季，再把彼此留進畫面裡。岩原的雪山在身後，這次也有一張屬於同行的紀念。",
+      "text": "雪場上的合照，餐桌旁的相聚。換一個雪季，再把一起出發的片刻留進畫面裡。",
       "resorts": [
+        6,
         7
       ],
       "photos": [
         {
           "id": "2024-yuzawa",
-          "alt": "岩原雪山前，三位夥伴的滑雪合照",
-          "caption": "越後湯澤 · 岩原雪山前",
-          "src": "images/companions/2024-yuzawa.webp",
-          "width": 1400,
-          "height": 1050
+          "alt": "越後湯澤雪場上，夥伴們在藍天下舉手自拍合照",
+          "caption": "越後湯澤 · 雪場上的同行自拍",
+          "src": "images/companions/2024-img_1199.webp",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "id": "2024-yuzawa-dinner",
+          "alt": "越後湯澤旅途中，五位夥伴圍著餐桌一起合照",
+          "caption": "越後湯澤 · 回到餐桌，繼續一起",
+          "src": "images/companions/2024-img_1238.webp",
+          "width": 1600,
+          "height": 1200
         }
       ]
     },
@@ -182,26 +191,24 @@ window.SNOW_COMPANIONS = {
       "year": 2025,
       "place": "日本 · 北海道",
       "title": "白雪、藍天，還有一起在山上的我們。",
-      "text": "北海道的這一頁，收下 KIRORO 的一張合照。風景很大，鏡頭也為身邊的人留了一個位置。",
-      "resorts": [
-        35
-      ],
+      "text": "雪山與雲光鋪成背景，五個人把雪板立在身前。在北海道的這一刻，留下我們一起站在山上的模樣。",
+      "resorts": [],
       "photos": [
         {
           "id": "2025-hokkaido",
-          "alt": "KIRORO 藍天與白雪前，夥伴們一起自拍合照",
-          "caption": "北海道 · KIRORO 的同行片刻",
-          "src": "images/companions/2025-hokkaido.webp",
-          "width": 1400,
-          "height": 1050
+          "alt": "北海道雪山與鐘形地標前，五位夥伴帶著雪板合照",
+          "caption": "北海道 · 五個人的雪山合照",
+          "src": "images/companions/2025-img_2661.webp",
+          "width": 1600,
+          "height": 900
         }
       ]
     },
     {
       "year": 2026,
-      "place": "加拿大 · 惠斯勒",
+      "place": "加拿大 · 惠斯勒／溫哥華",
       "title": "這次，五個人走到加拿大。",
-      "text": "藍天、群峰，還有石像地標前的雪場合照。再留一張五個人同框的休息片刻，把一起滑過這片雪山的回憶收好。",
+      "text": "在惠斯勒留下雪場合照，也在溫哥華蒸汽鐘前站進同一個畫面。五個人的加拿大旅途，雪道內外都值得紀念。",
       "resorts": [
         36
       ],
@@ -215,12 +222,12 @@ window.SNOW_COMPANIONS = {
           "height": 900
         },
         {
-          "id": "2026-whistler",
-          "alt": "惠斯勒雪山前，五位夥伴在戶外餐桌旁一起合照",
-          "caption": "惠斯勒 · 五個人的雪山休息時光",
-          "src": "images/companions/2026-whistler.webp",
-          "width": 1400,
-          "height": 788
+          "id": "2026-vancouver",
+          "alt": "溫哥華蒸汽鐘前，五位夥伴在街道上一起合照",
+          "caption": "加拿大旅途 · 溫哥華蒸汽鐘前的五人合照",
+          "src": "images/companions/2026-img_0058.webp",
+          "width": 900,
+          "height": 1600
         }
       ]
     }
