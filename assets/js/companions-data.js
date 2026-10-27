@@ -52,6 +52,14 @@ window.SNOW_COMPANIONS = {
           "src": "images/companions/2015-img_1312.webp",
           "width": 1280,
           "height": 960
+        },
+        {
+          "id": "2015-niseko-group",
+          "alt": "2015 二世谷，五位夥伴穿著滑雪裝備在雪地與雪板旁合照",
+          "caption": "二世谷 · 五個人的雪地合照",
+          "src": "images/companions/2015-img_1469.webp",
+          "width": 1600,
+          "height": 1200
         }
       ]
     },
