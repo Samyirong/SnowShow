@@ -1,8 +1,8 @@
 window.SNOW_COMPANIONS = {
   "hero": {
-    "id": "hero-whistler",
-    "alt": "2026 惠斯勒，五位好夥伴一起在餐桌前合照",
-    "src": "images/companions/hero-whistler.webp",
+    "id": "hero-hakuba",
+    "alt": "2018 白馬，五位夥伴在飄雪的雪坡上合照，身後是白色山谷",
+    "src": "images/companions/hero-2018-1517307092489.webp",
     "width": 1800,
     "height": 1013
   },
