@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="一起滑過的我們。記得的不只是雪場，還有一起出發的夥伴。2014—2026 的同行紀念。"
+    />
+    <meta name="theme-color" content="#173e39" />
+    <title>一起滑過的我們 — SnowShow</title>
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <link rel="stylesheet" href="assets/css/companions.css" />
+    <script src="assets/js/companions-data.js" defer></script>
+    <script src="assets/js/companions.js" defer></script>
+  </head>
+  <body class="companions-page">
+    <a class="skip-link" href="#main">跳到主要內容</a>
+    <header class="site-header">
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="SnowShow 首頁"
+        ><span class="brand-mark" aria-hidden="true">↟</span> SNOWSHOW<span
+          class="brand-dot"
+          >.</span
+        ></a
+      >
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="index.html">首頁</a>
+        <a href="snowmap.html">雪場地圖</a>
+        <a href="resort.html">雪場風景</a>
+        <a href="video.html">雪上影像</a>
+        <a href="companions.html" aria-current="page">一起滑過的我們</a>
+      </nav>
+      <span class="preview-badge">OUR PEOPLE · OUR WINTERS</span>
+    </header>
+    <main id="main">
+      <section
+        class="friends-hero friends-container"
+        aria-labelledby="hero-title"
+      >
+        <div class="friends-hero-heading">
+          <div>
+            <p class="eyebrow">OUR PEOPLE, OUR WINTERS / 2014—2026</p>
+            <h1 id="hero-title">一起滑過<br />的我們<span>.</span></h1>
+          </div>
+          <div class="friends-intro">
+            <p class="friends-lead">
+              記得的不只是雪場，<br />還有一起出發的我們。
+            </p>
+            <p>風景留在雪場相簿，<br />這一頁，留給身邊的好夥伴。</p>
+            <a class="friends-text-link" href="#memories"
+              >翻開我們的雪季 <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </div>
+        <figure class="friends-cover">
+          <div id="hero-photo"></div>
+          <figcaption>
+            <span>2026 / WHISTLER, CANADA</span
+            ><span>把同行的人，也留在風景裡。</span>
+          </figcaption>
+        </figure>
+        <div class="friends-page-note">
+          <span class="friends-note-mark" aria-hidden="true">↟</span>
+          <p>
+            先從有合照的年份，慢慢翻起。<br /><span
+            >從日本到加拿大，把一起出發、並肩滑雪的片刻，一年一年收進來。</span
+            >
+          </p>
+          <span class="friends-handnote">下一個雪季，還是一起。</span>
+        </div>
+      </section>
+      <section
+        class="friends-memories friends-container"
+        id="memories"
+        aria-labelledby="memories-title"
+      >
+        <div class="friends-section-heading">
+          <div>
+            <p class="eyebrow">01 / THE WINTERS WE KEEP</p>
+            <h2 id="memories-title">一張合照，一個雪季。</h2>
+          </div>
+          <p>不是每一趟都有同一批人，<br />每一張，都是同行的紀念。</p>
+        </div>
+        <div class="friends-year-bar">
+          <span class="friends-year-label">選一個年份</span>
+          <div
+            id="year-filter"
+            class="friends-year-options"
+            role="group"
+            aria-label="依年份查看回憶"
+          ></div>
+        </div>
+        <p
+          class="friends-filter-status"
+          id="memory-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+        <div id="timeline-list" class="friends-timeline"></div>
+      </section>
+      <section class="friends-moments" aria-labelledby="moments-title">
+        <div class="friends-container">
+          <div class="friends-section-heading">
+            <div>
+              <p class="eyebrow">02 / THE LITTLE THINGS</p>
+              <h2 id="moments-title">不只滑雪的那些片刻。</h2>
+            </div>
+            <p>雪道以外，<br />也有值得收進相簿的畫面。</p>
+          </div>
+          <div id="moments-grid" class="friends-moments-grid"></div>
+        </div>
+      </section>
+      <section
+        class="friends-closing friends-container"
+        aria-labelledby="closing-title"
+      >
+        <p class="eyebrow">TO BE CONTINUED, TOGETHER</p>
+        <h2 id="closing-title">下一個雪季，<br />還是一起。</h2>
+        <p>山不只去一次，<br />故事也不只寫一頁。</p>
+        <a class="button button-dark" href="snowmap.html"
+          >看看我們滑過的雪場 ↗</a
+        >
+        <p class="friends-review-note">
+          記得的不只是雪場，還有一起出發的我們。
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="index.html">SNOWSHOW.</a
+      ><span
+        >© 2026 Sam Chen · Made for the mountains, and the people beside
+        us.</span
+      ><a href="#main">回到上方 ↑</a>
+    </footer>
+    <dialog id="friends-viewer" class="friends-viewer" aria-label="合照檢視器">
+      <div class="friends-viewer-toolbar">
+        <span id="viewer-count"></span
+        ><button type="button" id="viewer-close" aria-label="關閉照片">
+          關閉 ✕
+        </button>
+      </div>
+      <img id="viewer-image" alt="" />
+      <div class="friends-viewer-footer">
+        <button type="button" id="viewer-prev" aria-label="上一張照片">
+          ←
+        </button>
+        <p id="viewer-caption" aria-live="polite"></p>
+        <button type="button" id="viewer-next" aria-label="下一張照片">
+          →
+        </button>
+      </div>
+    </dialog>
+    <noscript
+      ><p class="friends-container">
+        請啟用
+        JavaScript，查看年份回憶與合照。
+      </p></noscript
+    >
+  </body>
+</html>
