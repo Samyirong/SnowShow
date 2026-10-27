@@ -13,6 +13,9 @@
     text-align: right;
   }
 }
+.memory[data-memory-year="2026"] .memory-photos.two {
+  grid-template-columns: minmax(0, 1fr);
+}
 .companions-page {
   --sans:
     -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", sans-serif;

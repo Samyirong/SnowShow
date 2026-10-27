@@ -47,11 +47,11 @@ window.SNOW_COMPANIONS = {
         },
         {
           "id": "2015-niseko",
-          "alt": "二世谷雪道旁，夥伴們與雪板的合照",
-          "caption": "二世谷 · 和雪板一起入鏡",
-          "src": "images/companions/2015-niseko.webp",
+          "alt": "二世谷開闊雪道與樹林前，四位夥伴舉手合照",
+          "caption": "二世谷 · 在雪道前一起舉手留念",
+          "src": "images/companions/2015-niseko-slope.webp",
           "width": 1280,
-          "height": 1280
+          "height": 960
         }
       ]
     },
@@ -201,11 +201,19 @@ window.SNOW_COMPANIONS = {
       "year": 2026,
       "place": "加拿大 · 惠斯勒",
       "title": "這次，五個人走到加拿大。",
-      "text": "一起滑雪，也一起吃飯。從雪山前的休息片刻，到晚餐桌上的合照，這次把五個人都留在回憶裡。",
+      "text": "藍天、群峰，還有石像地標前的雪場合照。再留一張五個人同框的休息片刻，把一起滑過這片雪山的回憶收好。",
       "resorts": [
         36
       ],
       "photos": [
+        {
+          "id": "2026-whistler-mountains",
+          "alt": "惠斯勒石像地標與連綿雪山前，四位夥伴拿著雪板與滑雪杖合照",
+          "caption": "惠斯勒 · 石像地標前的四人合照，遠方是連綿群峰",
+          "src": "images/companions/2026-whistler-mountains.webp",
+          "width": 1600,
+          "height": 900
+        },
         {
           "id": "2026-whistler",
           "alt": "惠斯勒雪山前，五位夥伴在戶外餐桌旁一起合照",
