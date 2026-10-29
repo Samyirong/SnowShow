@@ -102,11 +102,11 @@ window.SNOW_COMPANIONS = {
       "photos": [
         {
           "id": "2018-hakuba",
-          "alt": "白馬八方尾根的雪山前，五位夥伴並肩合照",
-          "caption": "白馬 · 八方尾根的山稜前",
-          "src": "images/companions/2018-hakuba.webp",
-          "width": 1400,
-          "height": 1050
+          "alt": "白馬八方尾根雪山前，六位夥伴並肩合照",
+          "caption": "白馬 · 八方尾根的六人雪山合照",
+          "src": "images/companions/2018-1517112451307.webp",
+          "width": 1478,
+          "height": 1108
         }
       ]
     },
@@ -114,18 +114,18 @@ window.SNOW_COMPANIONS = {
       "year": 2019,
       "place": "日本 · 妙高",
       "title": "集合，拍一張再出發。",
-      "text": "斑尾高原的牌樓下，並肩留下五個人的雪地合照。裝備、雪山，還有鏡頭前的我們。",
+      "text": "斑尾高原的長野與新潟縣界看板前，把飄雪和夥伴一起留進鏡頭。集合，拍一張再出發。",
       "resorts": [
         18
       ],
       "photos": [
         {
           "id": "2019-myoko",
-          "alt": "斑尾高原牌樓下，五位夥伴並肩站在雪地合照",
-          "caption": "妙高行程 · 斑尾高原牌樓前",
-          "src": "images/companions/2019-20190127_171000.webp",
+          "alt": "斑尾高原長野與新潟縣界看板前，夥伴們在飄雪中合照",
+          "caption": "妙高行程 · 斑尾高原縣界看板前",
+          "src": "images/companions/2019-20190127_092917.webp",
           "width": 1600,
-          "height": 778
+          "height": 780
         }
       ]
     },
