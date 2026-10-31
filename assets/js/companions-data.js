@@ -8,6 +8,101 @@ window.SNOW_COMPANIONS = {
   },
   "years": [
     {
+      "year": 2008,
+      "place": "美國 · Eldora",
+      "title": "把一起滑過的冬天，從這裡翻起。",
+      "text": "Eldora 的藍天與雪道，留下這張同行合照。翻開早年的一頁，把身邊的夥伴也一起留下。",
+      "resorts": [
+        34
+      ],
+      "photos": [
+        {
+          "id": "2008-eldora",
+          "src": "images/companions/2008-eldora.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "Eldora 雪道上，夥伴們穿著滑雪裝備一起合照",
+          "caption": "Eldora · 藍天與雪道上的同行紀念"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "place": "日本 · 苗場／神樂",
+      "title": "帶著裝備，也帶著彼此的回憶。",
+      "text": "站在雪地上，出發前先拍一張。這一年的苗場／神樂行程，有一張屬於同行夥伴的紀念。",
+      "resorts": [
+        10,
+        11
+      ],
+      "photos": [
+        {
+          "id": "2010-naeba-kagura",
+          "src": "images/companions/2010-naeba-kagura.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "2010 苗場／神樂行程中，四位夥伴帶著滑雪裝備在雪地合照",
+          "caption": "苗場／神樂行程 · 雪地上的四人合照"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "place": "日本 · 長野",
+      "title": "雪山上的看板，也留下我們的模樣。",
+      "text": "在燒額山覆雪的紀念看板前，一起把臉探進鏡頭。這一頁，留給長野雪季裡的同行紀念。",
+      "resorts": [
+        12
+      ],
+      "photos": [
+        {
+          "id": "2011-yakebitai",
+          "src": "images/companions/2011-yakebitai.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "燒額山覆雪的山頂紀念看板前，兩位夥伴探出臉合照",
+          "caption": "志賀高原 · 燒額山紀念看板前"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "place": "日本 · 苗場／神樂",
+      "title": "靠近一點，讓大家都入鏡。",
+      "text": "再到苗場／神樂，把雪板排好，也把一起出發的人留進畫面。這張合照，收下了又一個雪季。",
+      "resorts": [
+        10,
+        11
+      ],
+      "photos": [
+        {
+          "id": "2012-naeba-kagura",
+          "src": "images/companions/2012-naeba-kagura.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "2012 苗場／神樂行程中，夥伴們拿著雪板在雪場一起合照",
+          "caption": "苗場／神樂行程 · 把大家一起留進畫面"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "place": "日本 · 白馬",
+      "title": "雪山在身後，夥伴在身旁。",
+      "text": "白馬的雪山與山谷鋪成背景。這一張，留下同行的身影，也留下站在這片風景前的我們。",
+      "resorts": [],
+      "photos": [
+        {
+          "id": "2013-hakuba",
+          "src": "images/companions/2013-hakuba.webp",
+          "width": 800,
+          "height": 600,
+          "alt": "2013 白馬雪山前，四位夥伴與雪板一起合照",
+          "caption": "白馬行程 · 雪山與同行的夥伴"
+        }
+      ]
+    },
+    {
       "year": 2014,
       "place": "日本 · 安比高原",
       "title": "雪山前，先留一張合照。",

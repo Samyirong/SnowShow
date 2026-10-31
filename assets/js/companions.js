@@ -37,6 +37,8 @@
   };
   $("#hero-photo").append(photoLink(data.hero, true));
   const resortLabels = new Map([
+    [12, "燒額山"],
+    [34, "Eldora"],
     [6, "舞子"],
     [7, "岩原"],
     [10, "苗場"],
