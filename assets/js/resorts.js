@@ -1580,6 +1580,16 @@ window.SNOW_RESORTS = [
         alt: "二世谷眺望暮色中的羊蹄山",
         year: 2016,
       },
+      {
+        src: "images/resorts/niseko/2015-gopro-snowforest.webp",
+        alt: "2015年二世谷仰望白樺雪林與冬日天空",
+        year: 2015,
+      },
+      {
+        src: "images/resorts/niseko/2015-gopro-chairlift-sky.webp",
+        alt: "2015年二世谷纜車線與雪林上方的冬日雲光",
+        year: 2015,
+      },
     ],
     videos: [
       {
@@ -1646,6 +1656,16 @@ window.SNOW_RESORTS = [
       {
         src: "images/resorts/appi-kogen/2014-07.webp",
         alt: "2014 年安比高原：風雪中的雪道與樹林",
+        year: 2014,
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-chairlift-snowforest.webp",
+        alt: "安比高原覆雪林間延伸的纜車線",
+        year: 2014,
+      },
+      {
+        src: "images/resorts/appi-kogen/2014-forest-skiers.webp",
+        alt: "安比高原雪林間的滑行身影與冬日雪坡",
         year: 2014,
       },
     ],
