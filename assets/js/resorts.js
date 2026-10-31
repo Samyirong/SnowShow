@@ -1665,11 +1665,11 @@ window.SNOW_RESORTS = [
   },
   {
     id: 34,
-    name: "布雷肯里奇",
+    name: "Eldora",
     country: "美國",
     years: [2008],
-    lat: 39.537231673638836,
-    lng: -106.06549460391365,
+    lat: 39.937529,
+    lng: -105.582795,
     photos: [],
   },
   {
