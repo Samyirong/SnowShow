@@ -30,38 +30,46 @@ window.SNOW_COMPANIONS = {
       "year": 2010,
       "place": "日本 · 苗場／神樂",
       "title": "帶著裝備，也帶著彼此的回憶。",
-      "text": "站在雪地上，出發前先拍一張。這一年的苗場／神樂行程，有一張屬於同行夥伴的紀念。",
+      "text": "藍天和連綿雪山前，留下三個人的合照。這一年的苗場／神樂行程，把一起出發的身影也收進回憶裡。",
       "resorts": [
         10,
         11
       ],
       "photos": [
         {
-          "id": "2010-naeba-kagura",
-          "src": "images/companions/2010-naeba-kagura.webp",
+          "id": "2010-cimg3224",
+          "src": "images/companions/2010-cimg3224.webp",
           "width": 1600,
           "height": 1200,
-          "alt": "2010 苗場／神樂行程中，四位夥伴帶著滑雪裝備在雪地合照",
-          "caption": "苗場／神樂行程 · 雪地上的四人合照"
+          "alt": "2010 苗場／神樂行程中，三位夥伴在藍天與連綿雪山前合照",
+          "caption": "苗場／神樂行程 · 三個人的雪山合照"
         }
       ]
     },
     {
       "year": 2011,
       "place": "日本 · 長野",
-      "title": "雪山上的看板，也留下我們的模樣。",
-      "text": "在燒額山覆雪的紀念看板前，一起把臉探進鏡頭。這一頁，留給長野雪季裡的同行紀念。",
+      "title": "雪道上集合，雪地裡一起休息。",
+      "text": "飄雪中集合的片刻，和雪地上一起停下來的模樣。長野的這一頁，留下滑雪路上最自然的同行紀念。",
       "resorts": [
         12
       ],
       "photos": [
         {
-          "id": "2011-yakebitai",
-          "src": "images/companions/2011-yakebitai.webp",
+          "id": "2011-r0027244",
+          "src": "images/companions/2011-r0027244.webp",
           "width": 1600,
           "height": 1200,
-          "alt": "燒額山覆雪的山頂紀念看板前，兩位夥伴探出臉合照",
-          "caption": "志賀高原 · 燒額山紀念看板前"
+          "alt": "2011 長野雪場上，四位夥伴拿著滑雪杖在飄雪中一起停留",
+          "caption": "長野 · 雪道上集合的片刻"
+        },
+        {
+          "id": "2011-r0027261",
+          "src": "images/companions/2011-r0027261.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "2011 長野雪場上，一位夥伴站在雪地休息的同行夥伴身旁",
+          "caption": "長野 · 雪地裡的同行片刻"
         }
       ]
     },
@@ -76,12 +84,20 @@ window.SNOW_COMPANIONS = {
       ],
       "photos": [
         {
-          "id": "2012-naeba-kagura",
-          "src": "images/companions/2012-naeba-kagura.webp",
+          "id": "2012-img_2814",
+          "src": "images/companions/2012-img_2814.webp",
           "width": 1600,
           "height": 1200,
-          "alt": "2012 苗場／神樂行程中，夥伴們拿著雪板在雪場一起合照",
-          "caption": "苗場／神樂行程 · 把大家一起留進畫面"
+          "alt": "2012 苗場／神樂行程中，夥伴們在雪山與雪場建築前合照",
+          "caption": "苗場／神樂行程 · 雪山前的同行合照"
+        },
+        {
+          "id": "2012-img_2868",
+          "src": "images/companions/2012-img_2868.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "2012 苗場／神樂行程中，夥伴們在白雪與樹林前舉手合照",
+          "caption": "苗場／神樂行程 · 一起舉手留念"
         }
       ]
     },
@@ -89,16 +105,32 @@ window.SNOW_COMPANIONS = {
       "year": 2013,
       "place": "日本 · 白馬",
       "title": "雪山在身後，夥伴在身旁。",
-      "text": "白馬的雪山與山谷鋪成背景。這一張，留下同行的身影，也留下站在這片風景前的我們。",
+      "text": "雪場前的合照、靠近鏡頭的自拍，還有覆雪樹林前一起跳起來的瞬間。白馬的這一頁，把同行的模樣多留幾張。",
       "resorts": [],
       "photos": [
         {
-          "id": "2013-hakuba",
-          "src": "images/companions/2013-hakuba.webp",
-          "width": 800,
-          "height": 600,
-          "alt": "2013 白馬雪山前，四位夥伴與雪板一起合照",
-          "caption": "白馬行程 · 雪山與同行的夥伴"
+          "id": "2013-img_3221",
+          "src": "images/companions/2013-img_3221.webp",
+          "width": 1600,
+          "height": 1200,
+          "alt": "2013 白馬雪場上，夥伴們在雪道與纜車站前合照",
+          "caption": "白馬 · 雪場前的同行合照"
+        },
+        {
+          "id": "2013-img_2502",
+          "src": "images/companions/2013-img_2502.webp",
+          "width": 640,
+          "height": 480,
+          "alt": "2013 白馬行程中，夥伴們靠在一起自拍合照",
+          "caption": "白馬 · 靠近一點，讓大家都入鏡"
+        },
+        {
+          "id": "2013-img_1350-2",
+          "src": "images/companions/2013-img_1350-2.webp",
+          "width": 1600,
+          "height": 1067,
+          "alt": "2013 白馬行程中，四位夥伴在覆雪樹林前一起跳起來",
+          "caption": "白馬 · 在雪地一起起飛"
         }
       ]
     },
